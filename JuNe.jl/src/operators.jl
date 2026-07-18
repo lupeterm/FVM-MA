@@ -102,15 +102,34 @@ function (d::Div{P,S})(
     _::P,
     _::P,
     _::P,
+    ownFluxContrib::P,
+    neiFluxContrib::P
+) where {P<:AbstractFloat,S}
+    weights_f = d.scheme(faceFlux)
+    ownFluxContrib += -faceFlux * weights_f * d.scale
+    neiFluxContrib += +faceFlux * (1.0 - weights_f) * d.scale
+    return ownFluxContrib, neiFluxContrib
+end
+
+# facebased inner
+function (d::Div{P,S})(
+    faceFlux::P,
+    _::P,
+    _::P,
+    _::P,
     valueUpper::P,
-    valueLower::P
+    valueLower::P,
+    verbose::Symbol,
+    _::Symbol
 ) where {P<:AbstractFloat,S}
     weights_f = d.scheme(faceFlux)
     ownFluxContrib = -faceFlux * weights_f * d.scale
     neiFluxContrib = +faceFlux * (1.0 - weights_f) * d.scale
-    return valueUpper + ownFluxContrib, valueLower + neiFluxContrib
+    println("Div:")
+    println("$weights_f =  $(String(Symbol(d.scheme)))($faceFlux)")
+    println("$ownFluxContrib = -$faceFlux * $weights_f * $(d.scale)")
+    println("$neiFluxContrib = $faceFlux * (1.0 - $weights_f) * $(d.scale)\n")
 end
-
 
 # facebased boundary 
 function (d::Div{P,S})(
@@ -179,6 +198,20 @@ function (t::Laplace{P})(
 ) where {P<:AbstractFloat}
     flux = gamma * deltaCoeff * magFaceArea * t.scale
     return valueUpper - flux, valueLower + flux
+end
+
+# facebased inner
+function (v::Laplace{P})(
+    faceFlux::P,
+    _::P,
+    _::P,
+    _::P,
+    valueUpper::P,
+    valueLower::P,
+    verbose::Symbol,
+    verbose_::Symbol
+) where {P<:AbstractFloat}
+    println("Laplacian: $flux = $gamma * $deltaCoeff * $magFaceArea * $(t.scale)\n")
 end
 
 #facebased
@@ -251,12 +284,19 @@ struct DiffEq{A,B}
 end
 
 ## cellbased inner
-@inline function (o::DiffEq)(faceFlux, gamma, deltaCoeffs, magFaceArea, valueUpper, valueLower, sign)
+@inline function (o::DiffEq)(faceFlux, gamma, deltaCoeffs, magFaceArea, valueUpper, valueLower, sign::Float64)
     valueUpper, valueLower = o.a(faceFlux, gamma, deltaCoeffs, magFaceArea, valueUpper, valueLower, sign)
     valueUpper, valueLower = o.b(faceFlux, gamma, deltaCoeffs, magFaceArea, valueUpper, valueLower, sign)
     return valueUpper, valueLower
 end
 
+
+## facebased inner
+@inline function (v::DiffEq)(faceFlux, gamma, deltaCoeffs, magFaceArea, valueUpper, valueLower, verbose::Symbol, verbose_::Symbol)
+    println("here2")
+    o.a(faceFlux, gamma, deltaCoeffs, magFaceArea, valueUpper, valueLower, verbose, verbose_)
+    o.b(faceFlux, gamma, deltaCoeffs, magFaceArea, valueUpper, valueLower, verbose, verbose_)
+end
 
 ## facebased inner
 @inline function (o::DiffEq)(faceFlux, gamma, deltaCoeffs, magFaceArea, valueUpper, valueLower)

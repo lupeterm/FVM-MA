@@ -86,6 +86,8 @@ function globalassemble_gpu(
 		KernelAbstractions.synchronize(backend)
 	end
 	if !isnothing(spatials)
+
+
 		globalface_kernel(backend, 64)(
 			numInteriorFaces,
 			owner,
@@ -555,20 +557,23 @@ function assemble_gpu(
 
     ddt, spatials = JuNe.splitTempSpat(fused_pde)
 	backend = get_backend(vals)
-	if !isnothing(ddt)
-		ddt_kernel(backend, 64)(
-			ddt,
-			volumes,
-			oldVectors,
-			diagOffs,
-			rowOffs,
-			vals,
-			RHS;
-			ndrange=numCells
-		)		
-		KernelAbstractions.synchronize(backend)
-	end
+	# println("in assemble, numcells: $numCells, numinternl: $numInteriorFaces, numb: $boundaryFaces")
+	# if !isnothing(ddt)
+	# 	# println("ddtkernel")
+	# 	ddt_kernel(backend, 64)(
+	# 		ddt,
+	# 		volumes,
+	# 		oldVectors,
+	# 		diagOffs,
+	# 		rowOffs,
+	# 		vals,
+	# 		RHS;
+	# 		ndrange=numCells
+	# 	)		
+	# 	KernelAbstractions.synchronize(backend)
+	# end
 	if !isnothing(spatials)
+		# println("global kernel")
 		innerFace_kernel(backend, 64)(
 			owner,
 			neighbour,
@@ -584,25 +589,25 @@ function assemble_gpu(
 			spatials;
 			ndrange=numInteriorFaces
 		)
-		face_boundaryKernel(backend, 64)(
-			numInteriorFaces,
-			surfaceCells,
-			diagOffs,
-			rowOffs,
-			vals,
-			spatials,
-			bfaceFlux,
-			bgamma,
-			bdeltaCoeffs,
-			magFaceArea,
-			valueFractions,
-			refValue,
-			refGradient,
-			RHS,
-			bValues,
-			bRhs;
-			ndrange=boundaryFaces
-		)
+		# face_boundaryKernel(backend, 64)(
+		# 	numInteriorFaces,
+		# 	surfaceCells,
+		# 	diagOffs,
+		# 	rowOffs,
+		# 	vals,
+		# 	spatials,
+		# 	bfaceFlux,
+		# 	bgamma,
+		# 	bdeltaCoeffs,
+		# 	magFaceArea,
+		# 	valueFractions,
+		# 	refValue,
+		# 	refGradient,
+		# 	RHS,
+		# 	bValues,
+		# 	bRhs;
+		# 	ndrange=boundaryFaces
+		# )
 		KernelAbstractions.synchronize(backend)
 	end
 end

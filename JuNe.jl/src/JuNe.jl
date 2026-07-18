@@ -45,9 +45,8 @@ function ddtloop_threaded(
     RHS::Vector{Float64}
 ) where {P<:AbstractFloat}
     @batch for celli in eachindex(volumes)
-        diagValue = 0.0
         idx2D = celli * 3 -2
-        dv, rx, ry, rz = temporals(
+        diagValue, rx, ry, rz = temporals(
             oldVectors[idx2D],
             oldVectors[idx2D+1],
             oldVectors[idx2D+2],
@@ -57,9 +56,11 @@ function ddtloop_threaded(
             0.0,
             0.0
         )
-        diagValue += dv
 
         diagIdx = (rowOffs[celli] + diagOffs[celli]) * 3 +1
+        if 460041232 == rowOffs[celli] + diagOffs[celli]
+            println("DDT: $diagValue")
+        end
         vals[diagIdx:diagIdx+2] .+= diagValue
         RHS[idx2D:idx2D+2] += [rx, ry, rz]
     end
@@ -844,6 +845,8 @@ function faceBasedAll_(
 )
     println("here")
     numCells = length(rowOffs) - 1
+    mrns = 0
+    mdo = 0
     for iFace in 1:numInteriorFaces
         iOwner = owner[iFace] + 1
         iNeighbor = neighbour[iFace] + 1
@@ -863,13 +866,13 @@ function faceBasedAll_(
         vals[idx:idx+2] .+= valueUpper
         
         idx = (rowOwnStart + diagOffs[iOwner]) * 3 + 1
-        vals[idx:idx+2] .-= valueUpper
+        vals[idx:idx+2] .-= valueLower
 
         idx = (rowOwnStart + ownOffs[iFace]) * 3 + 1
         vals[idx:idx+2] .+= valueLower
 
         idx = (rowNeiStart + diagOffs[iNeighbor]) * 3 + 1
-        vals[idx:idx+2] .-= valueLower
+        vals[idx:idx+2] .-= valueUpper
     end
     for facei in numInteriorFaces+1:numInteriorFaces+length(bfaceFlux)
         bcfacei = facei - numInteriorFaces
@@ -951,15 +954,15 @@ function faceBasedAll_threaded(
         idx = (rowNeiStart + neiOffs[iFace]) * 3 + 1
         vals[idx:idx+2] .+= valueUpper
         idx = (rowOwnStart + diagOffs[iOwner]) * 3 + 1
-        Atomix.@atomic vals[idx] -= valueUpper
-        Atomix.@atomic vals[idx+1] -= valueUpper
-        Atomix.@atomic vals[idx+2] -= valueUpper
-        idx = (rowOwnStart + ownOffs[iFace]) * 3 + 1
-        vals[idx:idx+2] .+= valueLower
-        idx = (rowNeiStart + diagOffs[iNeighbor]) * 3 + 1
         Atomix.@atomic vals[idx] -= valueLower
         Atomix.@atomic vals[idx+1] -= valueLower
         Atomix.@atomic vals[idx+2] -= valueLower
+        idx = (rowOwnStart + ownOffs[iFace]) * 3 + 1
+        vals[idx:idx+2] .+= valueLower
+        idx = (rowNeiStart + diagOffs[iNeighbor]) * 3 + 1
+        Atomix.@atomic vals[idx] -= valueUpper
+        Atomix.@atomic vals[idx+1] -= valueUpper
+        Atomix.@atomic vals[idx+2] -= valueUpper
     end
     @batch for facei in numInteriorFaces+1:numInteriorFaces+length(bfaceFlux)
         bcfacei = facei - numInteriorFaces
@@ -1026,69 +1029,69 @@ function globalfaceBasedAll_(
     bValues::Vector{Float64},
     bRhs::Vector{Float64}
 )
-    numCells = length(rowOffs) - 1
-    numTotalFaces = numInteriorFaces + length(bfaceFlux)
-    for iFace in 1:numTotalFaces
-        if iFace <= numInteriorFaces
-            iOwner = owner[iFace] + 1
-            iNeighbor = neighbour[iFace] + 1
+    # numCells = length(rowOffs) - 1
+    # numTotalFaces = numInteriorFaces + length(bfaceFlux)
+    # for iFace in 1:numTotalFaces
+    #     if iFace <= numInteriorFaces
+    #         iOwner = owner[iFace] + 1
+    #         iNeighbor = neighbour[iFace] + 1
 
-            rowNeiStart = rowOffs[iNeighbor]
-            rowOwnStart = rowOffs[iOwner]
+    #         rowNeiStart = rowOffs[iNeighbor]
+    #         rowOwnStart = rowOffs[iOwner]
 
-            valueUpper, valueLower = fused_pde(
-                faceFlux[iFace], 
-                gamma[iFace], 
-                deltaCoeffs[iFace], 
-                magFaceArea[iFace],
-                0.0, 
-                0.0
-            )
-            idx = (rowNeiStart + neiOffs[iFace]) * 3 + 1
-            vals[idx:idx+2] .+= valueUpper
+    #         valueUpper, valueLower = fused_pde(
+    #             faceFlux[iFace], 
+    #             gamma[iFace], 
+    #             deltaCoeffs[iFace], 
+    #             magFaceArea[iFace],
+    #             0.0, 
+    #             0.0
+    #         )
+    #         idx = (rowNeiStart + neiOffs[iFace]) * 3 + 1
+    #         vals[idx:idx+2] .+= valueUpper
             
-            idx = (rowOwnStart + diagOffs[iOwner]) * 3 + 1
-            vals[idx:idx+2] .-= valueUpper
+    #         idx = (rowOwnStart + diagOffs[iOwner]) * 3 + 1
+    #         vals[idx:idx+2] .-= valueUpper
 
-            idx = (rowOwnStart + ownOffs[iFace]) * 3 + 1
-            vals[idx:idx+2] .+= valueLower
+    #         idx = (rowOwnStart + ownOffs[iFace]) * 3 + 1
+    #         vals[idx:idx+2] .+= valueLower
 
-            idx = (rowNeiStart + diagOffs[iNeighbor]) * 3 + 1
-            vals[idx:idx+2] .-= valueLower
-        else
-            bcfacei = iFace - numInteriorFaces
-            start = bcfacei * 3 - 2
-            end_ = start + 2
-            valueDiag, valueRHSx, valueRHSy, valueRHSz = fused_pde(
-                refValue[start:end_],
-                refGradient[start:end_],
-                bfaceFlux[bcfacei],
-                valueFractions[bcfacei],
-                bdeltaCoeffs[bcfacei],
-                bgamma[bcfacei],
-                magFaceArea[iFace],
-                0.0, 0.0, 0.0, 0.0
-            )
-            own = surfaceCells[bcfacei] + 1
+    #         idx = (rowNeiStart + diagOffs[iNeighbor]) * 3 + 1
+    #         vals[idx:idx+2] .-= valueLower
+    #     else
+    #         bcfacei = iFace - numInteriorFaces
+    #         start = bcfacei * 3 - 2
+    #         end_ = start + 2
+    #         valueDiag, valueRHSx, valueRHSy, valueRHSz = fused_pde(
+    #             refValue[start:end_],
+    #             refGradient[start:end_],
+    #             bfaceFlux[bcfacei],
+    #             valueFractions[bcfacei],
+    #             bdeltaCoeffs[bcfacei],
+    #             bgamma[bcfacei],
+    #             magFaceArea[iFace],
+    #             0.0, 0.0, 0.0, 0.0
+    #         )
+    #         own = surfaceCells[bcfacei] + 1
 
-            vIdx = (rowOffs[own] + diagOffs[own]) * 3 + 1
-            vals[vIdx:vIdx+2] .+= valueDiag
+    #         vIdx = (rowOffs[own] + diagOffs[own]) * 3 + 1
+    #         vals[vIdx:vIdx+2] .+= valueDiag
 
-            bValues[bcfacei*3-2:bcfacei*3] .+= valueDiag
+    #         bValues[bcfacei*3-2:bcfacei*3] .+= valueDiag
 
-            # rhs[own] -= valueRhs
-            # FIXME dont forget, changed this back to [vec3, vec3] instead of [xxxyyyzzz] for now
-            RHS[own*3-2:own*3] += [valueRHSx, valueRHSy, valueRHSz]
-            # RHS[own] += valueRHSx
-            # RHS[own+numCells] += valueRHSy
-            # RHS[own+numCells+numCells] += valueRHSz
+    #         # rhs[own] -= valueRhs
+    #         # FIXME dont forget, changed this back to [vec3, vec3] instead of [xxxyyyzzz] for now
+    #         RHS[own*3-2:own*3] += [valueRHSx, valueRHSy, valueRHSz]
+    #         # RHS[own] += valueRHSx
+    #         # RHS[own+numCells] += valueRHSy
+    #         # RHS[own+numCells+numCells] += valueRHSz
 
-            bRhs[bcfacei*3-2:bcfacei*3] += [valueRHSx, valueRHSy, valueRHSz]
-            # bRhs[own] += valueRHSx
-            # bRhs[own+numCells] += valueRHSy
-            # bRhs[own+numCells+numCells] += valueRHSz
-        end
-    end
+    #         bRhs[bcfacei*3-2:bcfacei*3] += [valueRHSx, valueRHSy, valueRHSz]
+    #         # bRhs[own] += valueRHSx
+    #         # bRhs[own+numCells] += valueRHSy
+    #         # bRhs[own+numCells+numCells] += valueRHSz
+    #     end
+    # end
 end
 
 
