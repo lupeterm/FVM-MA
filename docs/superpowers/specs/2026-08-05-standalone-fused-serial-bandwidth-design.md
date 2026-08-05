@@ -4,6 +4,8 @@
 
 Add a reusable plot to `variants/generate_figures_gpu.ipynb` for the serial (`Threads == 1`) results in `variants/standalone_fused.csv`. The figure compares the two CPU nodes with H100 on the left and H200 on the right.
 
+The implementation must be written directly into a new executable code cell in the notebook. The cell must contain both the plotting function and its invocation so that running it displays the figure inline. No separate Python, HTML, or visualization source file is part of the implementation; the SVG is only an export produced by the notebook cell.
+
 ## Data preparation
 
 - Load `standalone_fused.csv` with blank-line handling enabled.
@@ -29,7 +31,7 @@ Add a reusable plot to `variants/generate_figures_gpu.ipynb` for the serial (`Th
 
 ## Function boundary
 
-Implement the plot as a function that accepts the prepared dataframe. The function owns serial filtering, ordering, plotting, annotation, layout, output, and returns the Seaborn grid so callers can inspect or further adjust it.
+Implement the plot as a function inside the new notebook cell. It accepts the prepared dataframe and owns serial filtering, ordering, plotting, annotation, layout, output, and returns the Seaborn grid so callers can inspect or further adjust it. Invoke the function at the end of the same cell with the prepared `standalone_fused.csv` dataframe so the plot is rendered directly in the notebook.
 
 ## Validation and errors
 
