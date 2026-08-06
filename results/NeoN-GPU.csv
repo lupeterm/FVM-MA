@@ -1005,7 +1005,6 @@ LDC_N400,64000000.0,39219.0,Face-Based,GPU,JuNe,1.0,gpu-nvidia-h200,
 LDC_N400,64000000.0,55316.0,Cell-Based,GPU,JuNe,1.0,gpu-nvidia-h200,
 LDC_N400,64000000.0,55100.0,Cell-Based,GPU,JuNe,1.0,gpu-nvidia-h200,
 LDC_N400,64000000.0,55236.0,Cell-Based,GPU,JuNe,1.0,gpu-nvidia-h200,
-,,,,,,,,
 LDC_N100,1000000.0,1263.0,Face-Based,GPU,JuNe,1.0,gpu-nvidia-h100,6940000.0
 LDC_N100,1000000.0,1084.0,Face-Based,GPU,JuNe,1.0,gpu-nvidia-h100,6940000.0
 LDC_N100,1000000.0,1081.0,Face-Based,GPU,JuNe,1.0,gpu-nvidia-h100,6940000.0
@@ -1021,7 +1020,6 @@ LDC_N100,1000000.0,2126.0,Cell-Based,GPU,NeoN,1.0,gpu-nvidia-h100,6940000.0
 LDC_N100,1000000.0,3267.0,Face-Based,GPU,NeoN,1.0,gpu-nvidia-h100,6940000.0
 LDC_N100,1000000.0,3206.0,Face-Based,GPU,NeoN,1.0,gpu-nvidia-h100,6940000.0
 LDC_N100,1000000.0,3195.0,Face-Based,GPU,NeoN,1.0,gpu-nvidia-h100,6940000.0
-,,,,,,,,
 LDC_N300,27000000.0,15567.0,Face-Based,GPU,JuNe,1.0,gpu-nvidia-h100,
 LDC_N300,27000000.0,15589.0,Face-Based,GPU,JuNe,1.0,gpu-nvidia-h100,
 LDC_N300,27000000.0,15535.0,Face-Based,GPU,JuNe,1.0,gpu-nvidia-h100,
@@ -1037,7 +1035,6 @@ LDC_N300,27000000.0,33911.0,Cell-Based,GPU,NeoN,1.0,gpu-nvidia-h100,
 LDC_N300,27000000.0,58109.0,Face-Based,GPU,NeoN,1.0,gpu-nvidia-h100,
 LDC_N300,27000000.0,58020.0,Face-Based,GPU,NeoN,1.0,gpu-nvidia-h100,
 LDC_N300,27000000.0,58027.0,Face-Based,GPU,NeoN,1.0,gpu-nvidia-h100,
-,,,,,,,,
 LDC_N100,1000000.0,1109.0,Fused Cell-Based,GPU,NeoN,1.0,gpu-nvidia-h200,6940000.0
 LDC_N100,1000000.0,1135.0,Fused Cell-Based,GPU,NeoN,1.0,gpu-nvidia-h200,6940000.0
 LDC_N100,1000000.0,1127.0,Fused Cell-Based,GPU,NeoN,1.0,gpu-nvidia-h200,6940000.0
