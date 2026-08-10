@@ -187,6 +187,8 @@ def plot(
     standard_y_ticks = [1, 10, 100, 1_000, 10_000, 50_000]
     data_x_ticks = sorted({float(point["arithmetic_intensity_flop_per_byte"]) for point in points})
     data_y_ticks = sorted({float(point["achieved_gflops"]) for point in points})
+    data_y_summary_tick = (data_y_ticks[0] + data_y_ticks[-1]) / 2 if len(data_y_ticks) > 1 else None
+    data_y_summary_error = (data_y_ticks[-1] - data_y_ticks[0]) / 2 if len(data_y_ticks) > 1 else None
     if progression:
         ax.set_xticks(standard_x_ticks)
         ax.set_yticks(standard_y_ticks)
@@ -194,7 +196,9 @@ def plot(
         ax.set_yticks(data_y_ticks, minor=True)
     else:
         ax.set_xticks(sorted(set(standard_x_ticks + data_x_ticks)))
-        ax.set_yticks(sorted(set(standard_y_ticks + data_y_ticks)))
+        summary_ticks = [data_y_summary_tick] if data_y_summary_tick is not None else []
+        ax.set_yticks(sorted(set(standard_y_ticks + summary_ticks)))
+        ax.set_yticks(data_y_ticks, minor=True)
 
     def is_data_tick(value: float, data_ticks: list[float]) -> bool:
         return any(math.isclose(value, tick, rel_tol=1e-9, abs_tol=1e-12) for tick in data_ticks)
@@ -203,6 +207,8 @@ def plot(
         return f"{value:.3f}" if is_data_tick(value, data_x_ticks) else f"{value:g}"
 
     def format_y_tick(value: float, _: float) -> str:
+        if data_y_summary_tick is not None and math.isclose(value, data_y_summary_tick, rel_tol=1e-9, abs_tol=1e-12):
+            return f"{data_y_summary_tick:.2f} ± {data_y_summary_error:.2f}"
         if not is_data_tick(value, data_y_ticks):
             return f"{value:g}" if value < 1_000 else f"{value / 1_000:g}k"
         if value < 1:
@@ -216,6 +222,7 @@ def plot(
     ax.grid(which="major", color="#c7c7c7", linestyle=":", linewidth=0.8)
     ax.tick_params(axis="both", which="major", labelsize=11, colors="#444")
     ax.tick_params(axis="both", which="minor", length=3, width=0.7, colors="#555", labelbottom=False, labelleft=False)
+    plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor", fontsize=10)
     ax.set_xlabel("Arithmetic intensity [FLOP/Byte]", fontsize=13, color="#222", labelpad=14)
     ax.set_ylabel("Attained FP64 performance [GFLOP/s]", fontsize=13, color="#222", labelpad=14)
     ax.set_title(title, fontsize=17, fontweight="semibold", color="#222", pad=16)
