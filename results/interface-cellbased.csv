@@ -1,0 +1,2455 @@
+case,cells,time_ns,strategy,executor,julia_or_neon,threads,node
+LDC_N10,1000,2056,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N10,1000,1486,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N10,1000,1454,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N10,1000,884,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N10,1000,536,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N10,1000,514,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N10,1000,1396,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N10,1000,965,Face-Based,CPU-Parallel,NeoN,2
+LDC_N10,1000,952,Face-Based,CPU-Parallel,NeoN,2
+LDC_N10,1000,884,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N10,1000,451,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N10,1000,400,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N10,1000,962,Face-Based,CPU-Parallel,NeoN,4
+LDC_N10,1000,611,Face-Based,CPU-Parallel,NeoN,4
+LDC_N10,1000,584,Face-Based,CPU-Parallel,NeoN,4
+LDC_N10,1000,730,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N10,1000,323,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N10,1000,289,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N10,1000,959,Face-Based,CPU-Parallel,NeoN,8
+LDC_N10,1000,565,Face-Based,CPU-Parallel,NeoN,8
+LDC_N10,1000,548,Face-Based,CPU-Parallel,NeoN,8
+LDC_N10,1000,714,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N10,1000,290,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N10,1000,257,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N10,1000,779,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N10,1000,363,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N10,1000,342,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N10,1000,871,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N10,1000,281,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N10,1000,330,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N10,1000,884,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N10,1000,325,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N10,1000,312,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N10,1000,788,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N10,1000,266,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N10,1000,252,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N10,1000,803,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N10,1000,347,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N10,1000,341,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N10,1000,14919,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N10,1000,16115,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N10,1000,260,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N10,1000,34204,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N10,1000,11421,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N10,1000,482,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N10,1000,21218,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N10,1000,25786,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N10,1000,23949,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N20,8000,11310,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N20,8000,10856,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N20,8000,10861,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N20,8000,3189,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N20,8000,2912,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N20,8000,2939,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N20,8000,7112,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N20,8000,6527,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N20,8000,6524,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N20,8000,2531,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N20,8000,1508,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N20,8000,1489,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N20,8000,5488,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N20,8000,4972,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N20,8000,5013,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N20,8000,1844,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N20,8000,1056,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N20,8000,997,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N20,8000,3050,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N20,8000,2707,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N20,8000,2667,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N20,8000,1168,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N20,8000,816,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N20,8000,655,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N20,8000,1917,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N20,8000,1550,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N20,8000,1513,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N20,8000,1084,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N20,8000,558,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N20,8000,480,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N20,8000,1561,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N20,8000,1141,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N20,8000,1125,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N20,8000,5024,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N20,8000,387,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N20,8000,352,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N20,8000,1437,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N20,8000,856,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N20,8000,839,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N20,8000,9799,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N20,8000,14568,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N20,8000,23233,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N20,8000,1255,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N20,8000,841,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N20,8000,725,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N20,8000,19350,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N20,8000,25775,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N20,8000,26827,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N30,27000,37305,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N30,27000,35952,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N30,27000,35858,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N30,27000,44624,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N30,27000,9353,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N30,27000,132525,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N30,27000,24317,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N30,27000,23466,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N30,27000,23442,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N30,27000,5580,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N30,27000,3952,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N30,27000,4145,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N30,27000,13592,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N30,27000,12995,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N30,27000,13130,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N30,27000,3539,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N30,27000,2207,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N30,27000,2261,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N30,27000,8999,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N30,27000,8234,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N30,27000,8229,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N30,27000,2390,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N30,27000,1531,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N30,27000,1342,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N30,27000,5017,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N30,27000,4651,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N30,27000,4589,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N30,27000,25783,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N30,27000,1409,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N30,27000,907,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N30,27000,3297,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N30,27000,2876,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N30,27000,2986,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N30,27000,5568,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N30,27000,5452,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N30,27000,829,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N30,27000,2276,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N30,27000,4015,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N30,27000,1829,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N30,27000,15355,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N30,27000,17716,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N30,27000,630,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N30,27000,2153,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N30,27000,1470,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N30,27000,1407,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N30,27000,20507,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N30,27000,35410,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N30,27000,20290,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N40,64000,87410,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N40,64000,84480,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N40,64000,84455,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N40,64000,143215,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N40,64000,22021,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N40,64000,19911,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N40,64000,52200,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N40,64000,51135,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N40,64000,51132,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N40,64000,10549,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N40,64000,8963,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N40,64000,9378,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N40,64000,29296,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N40,64000,28664,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N40,64000,28459,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N40,64000,6299,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N40,64000,4499,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N40,64000,4811,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N40,64000,18245,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N40,64000,18162,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N40,64000,17871,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N40,64000,4391,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N40,64000,2691,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N40,64000,2964,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N40,64000,10189,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N40,64000,9626,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N40,64000,9508,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N40,64000,3104,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N40,64000,1772,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N40,64000,1727,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N40,64000,8392,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N40,64000,5604,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N40,64000,5407,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N40,64000,6144,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N40,64000,1494,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N40,64000,1171,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N40,64000,3913,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N40,64000,3427,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N40,64000,3386,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N40,64000,5896,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N40,64000,15312,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N40,64000,9741,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N40,64000,9779,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N40,64000,2876,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N40,64000,2809,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N40,64000,15847,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N40,64000,32252,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N40,64000,24460,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N50,125000,169672,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N50,125000,166139,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N50,125000,165316,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N50,125000,39923,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N50,125000,38642,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N50,125000,41398,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N50,125000,107688,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N50,125000,102834,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N50,125000,104511,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N50,125000,18057,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N50,125000,16608,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N50,125000,152844,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N50,125000,61059,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N50,125000,57862,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N50,125000,59437,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N50,125000,10787,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N50,125000,9016,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N50,125000,8508,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N50,125000,39312,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N50,125000,36802,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N50,125000,36640,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N50,125000,6891,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N50,125000,5247,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N50,125000,5491,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N50,125000,24470,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N50,125000,20230,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N50,125000,19828,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N50,125000,4622,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N50,125000,3259,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N50,125000,27314,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N50,125000,11627,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N50,125000,10917,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N50,125000,11023,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N50,125000,7367,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N50,125000,6661,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N50,125000,2187,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N50,125000,8242,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N50,125000,7603,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N50,125000,7585,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N50,125000,20621,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N50,125000,1499,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N50,125000,1312,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N50,125000,16586,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N50,125000,5261,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N50,125000,5008,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N50,125000,24298,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N50,125000,25083,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N50,125000,28159,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N60,216000,287461,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N60,216000,281226,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N60,216000,281691,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N60,216000,65999,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N60,216000,67173,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N60,216000,65049,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N60,216000,176348,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N60,216000,172065,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N60,216000,174180,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N60,216000,29893,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N60,216000,151982,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N60,216000,27749,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N60,216000,100058,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N60,216000,98713,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N60,216000,99082,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N60,216000,17140,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N60,216000,15594,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N60,216000,14139,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N60,216000,70273,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N60,216000,66288,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N60,216000,66250,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N60,216000,10618,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N60,216000,7596,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N60,216000,8919,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N60,216000,34028,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N60,216000,37331,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N60,216000,33290,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N60,216000,6376,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N60,216000,4686,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N60,216000,14635,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N60,216000,19012,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N60,216000,19618,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N60,216000,18144,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N60,216000,4249,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N60,216000,3105,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N60,216000,2766,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N60,216000,13496,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N60,216000,13739,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N60,216000,12596,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N60,216000,21669,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N60,216000,20994,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N60,216000,17158,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N60,216000,9173,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N60,216000,8319,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N60,216000,8091,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N60,216000,21633,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N60,216000,24187,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N60,216000,27506,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N70,343000,465516,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N70,343000,454279,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N70,343000,461005,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N70,343000,104365,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N70,343000,104884,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N70,343000,105734,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N70,343000,299628,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N70,343000,290107,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N70,343000,294956,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N70,343000,175769,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N70,343000,44620,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N70,343000,44134,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N70,343000,162721,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N70,343000,159669,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N70,343000,159478,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N70,343000,24978,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N70,343000,21756,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N70,343000,23174,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N70,343000,100994,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N70,343000,98485,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N70,343000,96585,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N70,343000,15691,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N70,343000,11617,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N70,343000,13663,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N70,343000,59546,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N70,343000,57906,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N70,343000,52387,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N70,343000,7978,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N70,343000,7956,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N70,343000,17475,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N70,343000,29850,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N70,343000,29105,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N70,343000,28633,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N70,343000,10425,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N70,343000,5336,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N70,343000,11025,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N70,343000,20409,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N70,343000,19612,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N70,343000,19537,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N70,343000,22019,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N70,343000,42876,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N70,343000,4256,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N70,343000,12932,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N70,343000,12170,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N70,343000,12104,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N70,343000,31097,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N70,343000,27163,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N70,343000,22853,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N80,512000,681786,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N80,512000,675840,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N80,512000,665796,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N80,512000,152738,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N80,512000,155299,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N80,512000,152171,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N80,512000,401728,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N80,512000,398888,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N80,512000,399160,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N80,512000,64289,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N80,512000,67913,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N80,512000,64314,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N80,512000,226489,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N80,512000,230522,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N80,512000,227822,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N80,512000,35285,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N80,512000,33031,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N80,512000,32708,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N80,512000,138751,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N80,512000,139040,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N80,512000,137696,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N80,512000,22392,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N80,512000,20939,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N80,512000,20726,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N80,512000,73512,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N80,512000,74325,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N80,512000,72657,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N80,512000,12157,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N80,512000,10994,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N80,512000,17104,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N80,512000,40895,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N80,512000,40078,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N80,512000,40483,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N80,512000,12526,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N80,512000,6974,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N80,512000,13269,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N80,512000,27868,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N80,512000,27268,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N80,512000,36722,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N80,512000,13800,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N80,512000,22008,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N80,512000,4892,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N80,512000,18571,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N80,512000,17530,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N80,512000,17413,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N80,512000,33336,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N80,512000,31498,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N80,512000,27178,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N90,729000,961985,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N90,729000,945339,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N90,729000,933777,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N90,729000,216609,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N90,729000,218426,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N90,729000,213698,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N90,729000,758835,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N90,729000,747066,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N90,729000,745319,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N90,729000,93140,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N90,729000,92690,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N90,729000,91877,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N90,729000,345422,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N90,729000,334883,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N90,729000,339352,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N90,729000,50541,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N90,729000,49931,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N90,729000,50085,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N90,729000,209433,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N90,729000,212493,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N90,729000,201917,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N90,729000,29213,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N90,729000,35004,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N90,729000,27387,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N90,729000,117441,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N90,729000,113518,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N90,729000,112280,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N90,729000,16103,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N90,729000,14709,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N90,729000,35434,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N90,729000,60261,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N90,729000,59964,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N90,729000,59010,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N90,729000,13116,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N90,729000,8673,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N90,729000,27775,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N90,729000,38843,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N90,729000,37404,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N90,729000,37655,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N90,729000,42597,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N90,729000,20087,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N90,729000,22627,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N90,729000,26462,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N90,729000,25544,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N90,729000,24554,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N90,729000,23932,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N90,729000,27719,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N90,729000,27496,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N100,1000000,1308469,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N100,1000000,1329869,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N100,1000000,1298776,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N100,1000000,296408,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N100,1000000,302353,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N100,1000000,298799,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N100,1000000,841543,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N100,1000000,827483,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N100,1000000,826216,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N100,1000000,122225,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N100,1000000,122119,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N100,1000000,123308,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N100,1000000,462861,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N100,1000000,463234,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N100,1000000,462182,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N100,1000000,64556,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N100,1000000,63804,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N100,1000000,71814,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N100,1000000,288842,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N100,1000000,290268,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N100,1000000,291857,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N100,1000000,42258,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N100,1000000,33552,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N100,1000000,32193,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N100,1000000,165025,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N100,1000000,157451,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N100,1000000,158818,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N100,1000000,21246,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N100,1000000,20488,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N100,1000000,42287,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N100,1000000,83764,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N100,1000000,82778,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N100,1000000,82930,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N100,1000000,22113,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N100,1000000,11098,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N100,1000000,29746,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N100,1000000,64521,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N100,1000000,51453,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N100,1000000,51408,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N100,1000000,28310,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N100,1000000,22982,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N100,1000000,25579,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N100,1000000,34461,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N100,1000000,32276,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N100,1000000,32078,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N100,1000000,49701,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N100,1000000,26262,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N100,1000000,50878,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N110,1331000,1744899,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N110,1331000,1733240,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N110,1331000,1729146,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N110,1331000,389552,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N110,1331000,389515,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N110,1331000,390485,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N110,1331000,1078140,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N110,1331000,1066425,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N110,1331000,1053598,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N110,1331000,161082,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N110,1331000,161389,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N110,1331000,162088,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N110,1331000,602834,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N110,1331000,601922,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N110,1331000,601671,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N110,1331000,84086,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N110,1331000,83169,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N110,1331000,89595,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N110,1331000,379572,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N110,1331000,373122,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N110,1331000,378631,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N110,1331000,55447,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N110,1331000,43935,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N110,1331000,65302,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N110,1331000,210296,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N110,1331000,204172,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N110,1331000,206709,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N110,1331000,29313,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N110,1331000,50970,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N110,1331000,29206,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N110,1331000,108852,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N110,1331000,108306,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N110,1331000,106903,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N110,1331000,19213,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N110,1331000,18816,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N110,1331000,14711,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N110,1331000,67115,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N110,1331000,66412,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N110,1331000,66070,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N110,1331000,21463,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N110,1331000,23932,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N110,1331000,17709,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N110,1331000,69537,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N110,1331000,43799,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N110,1331000,42276,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N110,1331000,32029,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N110,1331000,31552,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N110,1331000,28135,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N120,1728000,2260293,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N120,1728000,2239302,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N120,1728000,2233357,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N120,1728000,516817,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N120,1728000,516066,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N120,1728000,514827,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N120,1728000,1422759,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N120,1728000,1429125,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N120,1728000,1454680,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N120,1728000,208780,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N120,1728000,209190,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N120,1728000,211843,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N120,1728000,813701,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N120,1728000,817698,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N120,1728000,815290,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N120,1728000,132999,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N120,1728000,109291,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N120,1728000,107073,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N120,1728000,516894,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N120,1728000,502030,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N120,1728000,524606,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N120,1728000,58697,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N120,1728000,59059,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N120,1728000,64109,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N120,1728000,270767,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N120,1728000,274369,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N120,1728000,271672,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N120,1728000,39568,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N120,1728000,51381,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N120,1728000,32599,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N120,1728000,140435,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N120,1728000,139957,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N120,1728000,139902,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N120,1728000,40240,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N120,1728000,20118,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N120,1728000,20339,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N120,1728000,86053,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N120,1728000,85300,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N120,1728000,84496,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N120,1728000,20815,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N120,1728000,29936,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N120,1728000,42930,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N120,1728000,59522,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N120,1728000,59381,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N120,1728000,59115,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N120,1728000,55981,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N120,1728000,31352,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N120,1728000,51492,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N130,2197000,3112364,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N130,2197000,3059516,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N130,2197000,3058962,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N130,2197000,648297,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N130,2197000,649523,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N130,2197000,645828,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N130,2197000,1894310,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N130,2197000,1905864,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N130,2197000,1898881,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N130,2197000,267575,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N130,2197000,267476,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N130,2197000,276903,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N130,2197000,1036677,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N130,2197000,1043526,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N130,2197000,1048840,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N130,2197000,136240,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N130,2197000,142781,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N130,2197000,134169,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N130,2197000,653110,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N130,2197000,660675,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N130,2197000,656999,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N130,2197000,72960,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N130,2197000,78925,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N130,2197000,90326,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N130,2197000,358388,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N130,2197000,361431,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N130,2197000,361457,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N130,2197000,47105,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N130,2197000,42332,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N130,2197000,39789,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N130,2197000,186824,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N130,2197000,188993,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N130,2197000,185154,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N130,2197000,29284,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N130,2197000,39433,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N130,2197000,23309,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N130,2197000,113505,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N130,2197000,111374,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N130,2197000,109216,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N130,2197000,29972,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N130,2197000,54668,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N130,2197000,19764,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N130,2197000,74571,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N130,2197000,73639,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N130,2197000,73338,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N130,2197000,53914,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N130,2197000,51430,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N130,2197000,45696,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N140,2744000,3614132,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N140,2744000,3573515,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N140,2744000,3563853,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N140,2744000,798621,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N140,2744000,799867,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N140,2744000,801269,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N140,2744000,2322171,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N140,2744000,2340267,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N140,2744000,2338008,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N140,2744000,329314,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N140,2744000,338688,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N140,2744000,330872,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N140,2744000,1261958,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N140,2744000,1263638,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N140,2744000,1277392,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N140,2744000,181159,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N140,2744000,167958,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N140,2744000,176705,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N140,2744000,802509,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N140,2744000,772114,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N140,2744000,811626,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N140,2744000,115453,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N140,2744000,92944,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N140,2744000,93489,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N140,2744000,431070,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N140,2744000,432148,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N140,2744000,432716,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N140,2744000,67065,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N140,2744000,62676,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N140,2744000,46697,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N140,2744000,226730,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N140,2744000,225782,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N140,2744000,222257,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N140,2744000,37941,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N140,2744000,47151,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N140,2744000,32253,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N140,2744000,134808,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N140,2744000,132933,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N140,2744000,132519,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N140,2744000,33214,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N140,2744000,51549,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N140,2744000,19534,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N140,2744000,88375,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N140,2744000,87648,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N140,2744000,87455,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N140,2744000,57372,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N140,2744000,41111,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N140,2744000,56059,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N150,3375000,4386341,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N150,3375000,4326471,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N150,3375000,4324113,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N150,3375000,990033,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N150,3375000,992913,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N150,3375000,987482,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N150,3375000,2781078,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N150,3375000,2755304,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N150,3375000,2744057,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N150,3375000,409383,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N150,3375000,418707,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N150,3375000,408601,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N150,3375000,1556055,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N150,3375000,1542540,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N150,3375000,1589085,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N150,3375000,216014,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N150,3375000,213098,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N150,3375000,206267,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N150,3375000,1007741,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N150,3375000,1004134,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N150,3375000,1019916,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N150,3375000,113052,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N150,3375000,107192,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N150,3375000,105999,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N150,3375000,527142,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N150,3375000,533793,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N150,3375000,529693,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N150,3375000,62625,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N150,3375000,58063,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N150,3375000,58165,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N150,3375000,271974,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N150,3375000,271559,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N150,3375000,271716,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N150,3375000,34093,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N150,3375000,50307,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N150,3375000,50652,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N150,3375000,162570,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N150,3375000,166134,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N150,3375000,169240,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N150,3375000,53524,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N150,3375000,58792,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N150,3375000,46584,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N150,3375000,112229,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N150,3375000,110463,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N150,3375000,111099,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N150,3375000,60135,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N150,3375000,41550,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N150,3375000,45668,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N160,4096000,5391708,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N160,4096000,5273082,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N160,4096000,5283670,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N160,4096000,1197688,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N160,4096000,1198390,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N160,4096000,1201253,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N160,4096000,3510903,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N160,4096000,3434473,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N160,4096000,3443528,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N160,4096000,499415,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N160,4096000,490835,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N160,4096000,497594,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N160,4096000,1908960,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N160,4096000,1908028,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N160,4096000,1903613,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N160,4096000,248874,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N160,4096000,254628,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N160,4096000,252466,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N160,4096000,1220987,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N160,4096000,1227165,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N160,4096000,1203523,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N160,4096000,155198,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N160,4096000,131098,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N160,4096000,131085,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N160,4096000,650015,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N160,4096000,646782,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N160,4096000,645020,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N160,4096000,70058,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N160,4096000,70206,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N160,4096000,87135,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N160,4096000,332246,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N160,4096000,330238,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N160,4096000,331382,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N160,4096000,62910,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N160,4096000,62013,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N160,4096000,79385,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N160,4096000,195940,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N160,4096000,199832,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N160,4096000,193344,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N160,4096000,49853,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N160,4096000,69397,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N160,4096000,58821,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N160,4096000,132168,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N160,4096000,132590,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N160,4096000,132874,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N160,4096000,46315,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N160,4096000,63553,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N160,4096000,64019,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N170,4913000,6330667,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N170,4913000,6384051,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N170,4913000,6308310,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N170,4913000,1440819,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N170,4913000,1439631,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N170,4913000,1435677,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N170,4913000,3982434,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N170,4913000,3993589,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N170,4913000,4020865,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N170,4913000,599793,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N170,4913000,601401,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N170,4913000,590894,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N170,4913000,2262702,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N170,4913000,2246600,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N170,4913000,2265690,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N170,4913000,307876,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N170,4913000,300178,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N170,4913000,300087,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N170,4913000,1428419,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N170,4913000,1442044,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N170,4913000,1426938,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N170,4913000,179346,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N170,4913000,172434,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N170,4913000,172206,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N170,4913000,772415,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N170,4913000,771996,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N170,4913000,772012,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N170,4913000,104521,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N170,4913000,100629,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N170,4913000,103991,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N170,4913000,387251,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N170,4913000,387364,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N170,4913000,386272,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N170,4913000,86026,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N170,4913000,70152,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N170,4913000,71538,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N170,4913000,200339,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N170,4913000,200666,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N170,4913000,199856,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N170,4913000,75436,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N170,4913000,86585,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N170,4913000,78148,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N170,4913000,155994,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N170,4913000,154940,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N170,4913000,155460,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N170,4913000,80899,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N170,4913000,77261,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N170,4913000,70289,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N180,5832000,7597944,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N180,5832000,7525134,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N180,5832000,7459821,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N180,5832000,1692229,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N180,5832000,1692894,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N180,5832000,1691553,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N180,5832000,4919451,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N180,5832000,4838413,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N180,5832000,4760993,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N180,5832000,686626,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N180,5832000,697196,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N180,5832000,699858,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N180,5832000,2771792,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N180,5832000,2780798,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N180,5832000,2760181,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N180,5832000,371690,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N180,5832000,352389,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N180,5832000,355654,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N180,5832000,1820291,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N180,5832000,1792101,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N180,5832000,1793014,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N180,5832000,200535,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N180,5832000,198907,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N180,5832000,201094,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N180,5832000,909764,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N180,5832000,905923,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N180,5832000,913900,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N180,5832000,111620,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N180,5832000,113273,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N180,5832000,127705,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N180,5832000,457119,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N180,5832000,458333,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N180,5832000,456448,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N180,5832000,85068,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N180,5832000,99780,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N180,5832000,99108,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N180,5832000,245537,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N180,5832000,239667,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N180,5832000,240817,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N180,5832000,93690,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N180,5832000,75887,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N180,5832000,88008,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N180,5832000,182513,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N180,5832000,180031,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N180,5832000,181110,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N180,5832000,73427,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N180,5832000,84448,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N180,5832000,75789,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N190,6859000,8960350,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N190,6859000,8785576,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N190,6859000,8863289,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N190,6859000,2006495,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N190,6859000,2006393,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N190,6859000,2001814,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N190,6859000,5453525,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N190,6859000,5421904,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N190,6859000,5454933,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N190,6859000,825172,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N190,6859000,819739,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N190,6859000,821387,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N190,6859000,3032414,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N190,6859000,2986404,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N190,6859000,2986199,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N190,6859000,423240,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N190,6859000,419053,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N190,6859000,416200,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N190,6859000,1733793,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N190,6859000,1746224,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N190,6859000,1756050,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N190,6859000,220032,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N190,6859000,232421,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N190,6859000,233352,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N190,6859000,999878,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N190,6859000,1001707,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N190,6859000,1001737,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N190,6859000,129789,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N190,6859000,129439,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N190,6859000,129667,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N190,6859000,531957,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N190,6859000,519687,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N190,6859000,519765,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N190,6859000,101940,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N190,6859000,96000,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N190,6859000,96388,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N190,6859000,326412,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N190,6859000,326283,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N190,6859000,342492,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N190,6859000,79595,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N190,6859000,99831,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N190,6859000,86039,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N190,6859000,212166,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N190,6859000,210666,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N190,6859000,211307,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N190,6859000,105798,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N190,6859000,79568,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N190,6859000,83900,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N200,8000000,10449647,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N200,8000000,10396089,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N200,8000000,10508366,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N200,8000000,2322232,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N200,8000000,2327055,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N200,8000000,2338265,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N200,8000000,6728161,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N200,8000000,6751861,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N200,8000000,6712752,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N200,8000000,964301,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N200,8000000,959206,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N200,8000000,961544,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N200,8000000,3750391,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N200,8000000,3759528,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N200,8000000,3712461,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N200,8000000,508822,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N200,8000000,502269,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N200,8000000,504205,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N200,8000000,2258871,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N200,8000000,2255285,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N200,8000000,2253283,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N200,8000000,252363,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N200,8000000,267340,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N200,8000000,252014,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N200,8000000,1254934,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N200,8000000,1260630,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N200,8000000,1261194,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N200,8000000,170653,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N200,8000000,168571,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N200,8000000,150606,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N200,8000000,635861,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N200,8000000,630821,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N200,8000000,633297,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N200,8000000,114286,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N200,8000000,128849,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N200,8000000,112068,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N200,8000000,376295,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N200,8000000,382848,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N200,8000000,376531,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N200,8000000,112744,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N200,8000000,104340,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N200,8000000,88667,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N200,8000000,245587,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N200,8000000,244503,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N200,8000000,245041,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N200,8000000,127075,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N200,8000000,90979,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N200,8000000,113279,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N220,10648000,14032192,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N220,10648000,13875005,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N220,10648000,13884608,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N220,10648000,3093810,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N220,10648000,3105774,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N220,10648000,3084323,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N220,10648000,9012286,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N220,10648000,8905099,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N220,10648000,8903816,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N220,10648000,1306177,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N220,10648000,1286121,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N220,10648000,1287504,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N220,10648000,4704559,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N220,10648000,4676519,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N220,10648000,4710827,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N220,10648000,679082,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N220,10648000,661673,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N220,10648000,664345,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N220,10648000,3095923,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N220,10648000,3000942,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N220,10648000,3004989,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N220,10648000,348415,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N220,10648000,363780,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N220,10648000,362076,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N220,10648000,1643641,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N220,10648000,1649234,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N220,10648000,1641133,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N220,10648000,204172,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N220,10648000,206521,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N220,10648000,204434,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N220,10648000,848959,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N220,10648000,848210,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N220,10648000,846740,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N220,10648000,153793,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N220,10648000,151558,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N220,10648000,163430,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N220,10648000,502116,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N220,10648000,521278,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N220,10648000,520278,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N220,10648000,125046,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N220,10648000,147095,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N220,10648000,134125,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N220,10648000,317003,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N220,10648000,320571,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N220,10648000,316094,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N220,10648000,114921,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N220,10648000,113042,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N220,10648000,124492,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N240,13824000,17900109,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N240,13824000,17718344,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N240,13824000,17667324,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N240,13824000,4024320,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N240,13824000,4017318,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N240,13824000,4009228,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N240,13824000,11793354,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N240,13824000,11655376,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N240,13824000,11706609,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N240,13824000,1648009,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N240,13824000,1648602,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N240,13824000,1656881,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N240,13824000,7492295,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N240,13824000,7470678,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N240,13824000,7489148,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N240,13824000,864747,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N240,13824000,868768,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N240,13824000,876401,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N240,13824000,4313713,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N240,13824000,4356392,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N240,13824000,4308207,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N240,13824000,496998,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N240,13824000,479556,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N240,13824000,479484,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N240,13824000,2160654,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N240,13824000,2147897,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N240,13824000,2150894,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N240,13824000,272427,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N240,13824000,270305,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N240,13824000,268614,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N240,13824000,1059605,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N240,13824000,1059855,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N240,13824000,1064224,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N240,13824000,214589,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N240,13824000,188988,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N240,13824000,188651,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N240,13824000,595275,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N240,13824000,665482,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N240,13824000,670019,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N240,13824000,161529,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N240,13824000,159724,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N240,13824000,157444,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N240,13824000,503378,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N240,13824000,419866,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N240,13824000,463143,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N240,13824000,145665,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N240,13824000,182639,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N240,13824000,170561,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N260,17576000,22835254,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N260,17576000,22629275,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N260,17576000,22447041,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N260,17576000,5144998,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N260,17576000,5137155,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N260,17576000,5136192,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N260,17576000,18218652,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N260,17576000,18274369,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N260,17576000,18324489,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N260,17576000,2109975,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N260,17576000,2148975,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N260,17576000,2166405,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N260,17576000,10084753,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N260,17576000,10106725,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N260,17576000,9953289,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N260,17576000,1098870,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N260,17576000,1106750,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N260,17576000,1085463,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N260,17576000,5345261,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N260,17576000,5366778,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N260,17576000,5363231,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N260,17576000,603830,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N260,17576000,604036,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N260,17576000,604000,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N260,17576000,2683560,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N260,17576000,2660971,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N260,17576000,2646166,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N260,17576000,350054,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N260,17576000,317956,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N260,17576000,349066,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N260,17576000,1335981,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N260,17576000,1335771,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N260,17576000,1334423,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N260,17576000,220026,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N260,17576000,220857,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N260,17576000,219481,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N260,17576000,822468,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N260,17576000,824316,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N260,17576000,819183,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N260,17576000,179910,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N260,17576000,182730,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N260,17576000,189670,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N260,17576000,615262,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N260,17576000,575495,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N260,17576000,526248,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N260,17576000,222573,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N260,17576000,186544,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N260,17576000,182088,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N280,21952000,28423820,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N280,21952000,28045883,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N280,21952000,28034603,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N280,21952000,6382407,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N280,21952000,6495300,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N280,21952000,6492035,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N280,21952000,19443570,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N280,21952000,18799252,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N280,21952000,20107172,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N280,21952000,2653087,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N280,21952000,2639309,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N280,21952000,2732738,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N280,21952000,12533324,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N280,21952000,12039682,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N280,21952000,12000582,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N280,21952000,1376465,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N280,21952000,1376228,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N280,21952000,1365007,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N280,21952000,6350452,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N280,21952000,6366531,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N280,21952000,6404501,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N280,21952000,758978,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N280,21952000,761115,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N280,21952000,730259,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N280,21952000,3208688,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N280,21952000,3226170,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N280,21952000,3212400,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N280,21952000,397084,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N280,21952000,420951,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N280,21952000,421259,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N280,21952000,1622074,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N280,21952000,1622910,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N280,21952000,1624823,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N280,21952000,274975,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N280,21952000,289102,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N280,21952000,275241,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N280,21952000,1016637,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N280,21952000,1024940,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N280,21952000,891711,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N280,21952000,233951,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N280,21952000,245829,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N280,21952000,228641,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N280,21952000,649381,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N280,21952000,671011,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N280,21952000,693983,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N280,21952000,213523,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N280,21952000,224636,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N280,21952000,203588,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N300,27000000,35083016,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N300,27000000,34986990,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N300,27000000,34572646,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N300,27000000,7839765,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N300,27000000,7835902,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N300,27000000,7833912,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N300,27000000,22278554,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N300,27000000,21541085,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N300,27000000,22065071,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N300,27000000,3210509,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N300,27000000,3231501,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N300,27000000,3196074,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N300,27000000,14761859,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N300,27000000,14572637,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N300,27000000,14581981,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N300,27000000,1661578,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N300,27000000,1652351,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N300,27000000,1649153,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N300,27000000,8499579,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N300,27000000,8656398,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N300,27000000,8686982,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N300,27000000,887399,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N300,27000000,906548,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N300,27000000,894718,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N300,27000000,4277694,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N300,27000000,4267333,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N300,27000000,4257606,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N300,27000000,498897,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N300,27000000,515776,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N300,27000000,502127,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N300,27000000,2144727,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N300,27000000,2152726,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N300,27000000,2144959,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N300,27000000,382238,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N300,27000000,327170,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N300,27000000,345049,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N300,27000000,1263806,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N300,27000000,1250008,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N300,27000000,1267303,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N300,27000000,259443,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N300,27000000,248460,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N300,27000000,263111,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N300,27000000,797217,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N300,27000000,797751,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N300,27000000,799945,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N300,27000000,265509,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N300,27000000,250266,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N300,27000000,245534,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N320,32768000,42663981,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N320,32768000,42085340,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N320,32768000,41551967,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N320,32768000,9542720,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N320,32768000,9509346,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N320,32768000,9520870,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N320,32768000,27390995,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N320,32768000,27082314,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N320,32768000,26849180,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N320,32768000,3933919,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N320,32768000,3930773,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N320,32768000,3937779,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N320,32768000,19002253,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N320,32768000,18754160,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N320,32768000,18855729,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N320,32768000,2031557,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N320,32768000,2040257,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N320,32768000,2026186,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N320,32768000,9375512,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N320,32768000,9400146,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N320,32768000,9398443,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N320,32768000,1081091,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N320,32768000,1077972,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N320,32768000,1061050,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N320,32768000,5156416,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N320,32768000,5132403,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N320,32768000,5133077,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N320,32768000,580697,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N320,32768000,623853,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N320,32768000,618439,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N320,32768000,2566956,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N320,32768000,2561512,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N320,32768000,2571049,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N320,32768000,400990,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N320,32768000,401734,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N320,32768000,398913,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N320,32768000,1471972,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N320,32768000,1374178,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N320,32768000,1297064,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N320,32768000,327990,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N320,32768000,305109,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N320,32768000,401939,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N320,32768000,954504,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N320,32768000,1018760,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N320,32768000,936217,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N320,32768000,282396,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N320,32768000,267767,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N320,32768000,235974,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N340,39304000,51170976,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N340,39304000,51370102,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N340,39304000,51913016,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N340,39304000,11435889,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N340,39304000,11467924,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N340,39304000,11457995,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N340,39304000,33665929,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N340,39304000,33416444,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N340,39304000,33445308,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N340,39304000,4676440,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N340,39304000,4680872,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N340,39304000,4684578,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N340,39304000,22027926,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N340,39304000,20948207,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N340,39304000,19747120,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N340,39304000,2389958,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N340,39304000,2391642,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N340,39304000,2413102,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N340,39304000,11427863,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N340,39304000,11419629,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N340,39304000,11405176,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N340,39304000,1255360,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N340,39304000,1253889,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N340,39304000,1270229,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N340,39304000,5896211,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N340,39304000,5890644,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N340,39304000,5898259,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N340,39304000,707232,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N340,39304000,727047,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N340,39304000,695317,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N340,39304000,2957526,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N340,39304000,2935375,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N340,39304000,2932915,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N340,39304000,453217,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N340,39304000,467792,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N340,39304000,479670,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N340,39304000,1754771,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N340,39304000,1739486,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N340,39304000,1763475,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N340,39304000,366047,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N340,39304000,353492,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N340,39304000,330254,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N340,39304000,1569180,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N340,39304000,1499366,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N340,39304000,1524854,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N340,39304000,346619,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N340,39304000,350631,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N340,39304000,320823,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N360,46656000,60345770,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N360,46656000,59393338,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N360,46656000,59516611,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N360,46656000,13751380,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N360,46656000,13755165,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N360,46656000,13799144,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N360,46656000,39609748,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N360,46656000,39174843,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N360,46656000,41689821,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N360,46656000,5691729,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N360,46656000,5675134,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N360,46656000,5647438,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N360,46656000,22195975,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N360,46656000,22136507,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N360,46656000,22170631,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N360,46656000,2847439,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N360,46656000,2880650,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N360,46656000,2869742,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N360,46656000,14712224,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N360,46656000,14403757,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N360,46656000,14459130,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N360,46656000,1496003,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N360,46656000,1511019,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N360,46656000,1488940,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N360,46656000,7212933,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N360,46656000,7219325,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N360,46656000,7239339,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N360,46656000,859126,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N360,46656000,845697,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N360,46656000,831123,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N360,46656000,3645001,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N360,46656000,3654182,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N360,46656000,3640832,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N360,46656000,554967,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N360,46656000,545558,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N360,46656000,546845,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N360,46656000,2183410,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N360,46656000,2018918,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N360,46656000,1932823,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N360,46656000,434700,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N360,46656000,408088,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N360,46656000,424239,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N360,46656000,1703356,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N360,46656000,1744201,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N360,46656000,1530837,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N360,46656000,383533,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N360,46656000,446930,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N360,46656000,328569,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N380,54872000,71812306,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N380,54872000,70895973,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N380,54872000,70292523,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N380,54872000,15781554,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N380,54872000,15792589,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N380,54872000,15801108,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N380,54872000,48251478,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N380,54872000,47767920,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N380,54872000,47698212,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N380,54872000,6518914,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N380,54872000,6514504,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N380,54872000,6511148,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N380,54872000,26954536,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N380,54872000,26776412,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N380,54872000,26610556,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N380,54872000,3293514,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N380,54872000,3295199,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N380,54872000,3300529,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N380,54872000,16006355,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N380,54872000,15960312,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N380,54872000,15931633,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N380,54872000,1715246,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N380,54872000,1739560,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N380,54872000,1737482,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N380,54872000,8618863,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N380,54872000,8605564,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N380,54872000,8658604,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N380,54872000,923837,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N380,54872000,958907,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N380,54872000,940385,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N380,54872000,4324181,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N380,54872000,4313002,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N380,54872000,4321777,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N380,54872000,638327,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N380,54872000,612913,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N380,54872000,591710,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N380,54872000,2496344,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N380,54872000,2481560,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N380,54872000,2470016,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N380,54872000,464540,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N380,54872000,431647,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N380,54872000,442373,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N380,54872000,1770387,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N380,54872000,1679352,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N380,54872000,1627189,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N380,54872000,419278,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N380,54872000,428399,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N380,54872000,424709,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N400,64000000,83333657,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N400,64000000,82028542,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N400,64000000,81834960,Face-Based,CPU-Parallel,NeoN,1,?
+LDC_N400,64000000,18377123,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N400,64000000,18396388,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N400,64000000,18394395,Face-Based,CPU-Parallel,NeoN + Julia,1,?
+LDC_N400,64000000,54374264,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N400,64000000,53961296,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N400,64000000,53605090,Face-Based,CPU-Parallel,NeoN,2,?
+LDC_N400,64000000,7556918,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N400,64000000,7567928,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N400,64000000,7555761,Face-Based,CPU-Parallel,NeoN + Julia,2,?
+LDC_N400,64000000,30956111,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N400,64000000,30875159,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N400,64000000,30937563,Face-Based,CPU-Parallel,NeoN,4,?
+LDC_N400,64000000,3824156,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N400,64000000,3859350,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N400,64000000,3829154,Face-Based,CPU-Parallel,NeoN + Julia,4,?
+LDC_N400,64000000,19258431,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N400,64000000,18698794,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N400,64000000,18571224,Face-Based,CPU-Parallel,NeoN,8,?
+LDC_N400,64000000,2021176,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N400,64000000,2018967,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N400,64000000,2020563,Face-Based,CPU-Parallel,NeoN + Julia,8,?
+LDC_N400,64000000,10128617,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N400,64000000,10112033,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N400,64000000,10116859,Face-Based,CPU-Parallel,NeoN,16,?
+LDC_N400,64000000,1073316,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N400,64000000,1096655,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N400,64000000,1123109,Face-Based,CPU-Parallel,NeoN + Julia,16,?
+LDC_N400,64000000,5050301,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N400,64000000,5076124,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N400,64000000,5065371,Face-Based,CPU-Parallel,NeoN,32,?
+LDC_N400,64000000,693767,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N400,64000000,663036,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N400,64000000,711818,Face-Based,CPU-Parallel,NeoN + Julia,32,?
+LDC_N400,64000000,2886889,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N400,64000000,2850163,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N400,64000000,2851543,Face-Based,CPU-Parallel,NeoN,64,?
+LDC_N400,64000000,545596,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N400,64000000,577284,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N400,64000000,542424,Face-Based,CPU-Parallel,NeoN + Julia,64,?
+LDC_N400,64000000,1866015,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N400,64000000,1881129,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N400,64000000,1860707,Face-Based,CPU-Parallel,NeoN,128,?
+LDC_N400,64000000,464959,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N400,64000000,464735,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N400,64000000,409261,Face-Based,CPU-Parallel,NeoN + Julia,128,?
+LDC_N10,1000,984,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N10,1000,958,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N10,1000,958,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N10,1000,1001,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N10,1000,573,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N10,1000,532,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N10,1000,978,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N10,1000,970,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N10,1000,964,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N10,1000,980,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N10,1000,503,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N10,1000,470,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N10,1000,975,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N10,1000,957,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N10,1000,965,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N10,1000,880,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N10,1000,485,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N10,1000,448,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N10,1000,978,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N10,1000,959,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N10,1000,964,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N10,1000,889,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N10,1000,435,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N10,1000,457,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N10,1000,987,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N10,1000,972,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N10,1000,967,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N10,1000,1039,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N10,1000,470,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N10,1000,433,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N10,1000,987,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N10,1000,977,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N10,1000,968,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N10,1000,1033,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N10,1000,463,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N10,1000,437,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N10,1000,986,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N10,1000,970,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N10,1000,962,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N10,1000,927,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N10,1000,486,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N10,1000,452,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N10,1000,1311,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N10,1000,1042,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N10,1000,980,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N10,1000,1033,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N10,1000,603,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N10,1000,439,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N20,8000,7363,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N20,8000,7233,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N20,8000,7285,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N20,8000,3081,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N20,8000,2706,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N20,8000,2631,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N20,8000,7290,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N20,8000,7267,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N20,8000,7365,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N20,8000,2480,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N20,8000,1943,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N20,8000,2030,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N20,8000,7243,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N20,8000,7238,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N20,8000,7216,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N20,8000,2321,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N20,8000,1960,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N20,8000,1959,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N20,8000,7343,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N20,8000,7392,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N20,8000,7287,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N20,8000,1992,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N20,8000,1908,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N20,8000,1797,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N20,8000,7252,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N20,8000,7205,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N20,8000,7241,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N20,8000,2587,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N20,8000,1862,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N20,8000,1818,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N20,8000,7396,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N20,8000,7329,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N20,8000,7326,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N20,8000,2492,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N20,8000,2110,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N20,8000,2012,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N20,8000,7595,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N20,8000,7482,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N20,8000,7499,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N20,8000,10978,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N20,8000,7086,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N20,8000,14083,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N20,8000,8606,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N20,8000,8501,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N20,8000,8471,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N20,8000,11858,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N20,8000,13982,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N20,8000,14240,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N30,27000,23859,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N30,27000,23724,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N30,27000,23726,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N30,27000,43590,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N30,27000,8469,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N30,27000,8109,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N30,27000,23964,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N30,27000,24248,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N30,27000,24275,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N30,27000,6139,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N30,27000,5834,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N30,27000,5639,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N30,27000,24259,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N30,27000,23968,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N30,27000,23998,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N30,27000,6317,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N30,27000,5716,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N30,27000,5630,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N30,27000,23807,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N30,27000,23917,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N30,27000,23848,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N30,27000,5842,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N30,27000,5349,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N30,27000,5319,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N30,27000,24047,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N30,27000,24012,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N30,27000,24046,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N30,27000,5031,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N30,27000,5446,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N30,27000,5504,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N30,27000,24223,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N30,27000,23986,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N30,27000,23906,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N30,27000,28055,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N30,27000,11047,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N30,27000,6912,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N30,27000,24266,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N30,27000,24148,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N30,27000,24096,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N30,27000,16649,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N30,27000,11624,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N30,27000,16568,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N30,27000,25391,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N30,27000,25236,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N30,27000,25192,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N30,27000,25304,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N30,27000,22360,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N30,27000,20713,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N40,64000,59447,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N40,64000,55869,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N40,64000,55933,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N40,64000,140915,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N40,64000,17556,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N40,64000,19907,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N40,64000,57430,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N40,64000,57632,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N40,64000,57191,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N40,64000,12260,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N40,64000,14174,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N40,64000,14083,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N40,64000,59605,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N40,64000,57527,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N40,64000,57377,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N40,64000,13301,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N40,64000,13148,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N40,64000,23693,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N40,64000,58648,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N40,64000,56712,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N40,64000,56553,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N40,64000,11023,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N40,64000,21627,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N40,64000,13173,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N40,64000,58541,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N40,64000,56841,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N40,64000,56227,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N40,64000,12595,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N40,64000,16554,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N40,64000,11943,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N40,64000,58053,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N40,64000,57990,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N40,64000,57265,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N40,64000,14765,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N40,64000,29113,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N40,64000,12256,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N40,64000,57054,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N40,64000,57509,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N40,64000,56343,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N40,64000,21550,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N40,64000,23697,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N40,64000,34728,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N40,64000,58941,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N40,64000,58732,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N40,64000,58427,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N40,64000,41555,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N40,64000,42445,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N40,64000,28791,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N50,125000,113704,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N50,125000,110769,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N50,125000,111911,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N50,125000,37452,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N50,125000,32958,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N50,125000,33245,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N50,125000,112734,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N50,125000,113561,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N50,125000,112323,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N50,125000,24649,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N50,125000,33475,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N50,125000,24811,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N50,125000,113391,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N50,125000,113745,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N50,125000,114307,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N50,125000,31055,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N50,125000,24515,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N50,125000,30379,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N50,125000,115698,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N50,125000,114649,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N50,125000,113530,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N50,125000,40923,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N50,125000,24082,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N50,125000,27482,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N50,125000,113086,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N50,125000,113072,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N50,125000,113180,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N50,125000,24107,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N50,125000,23626,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N50,125000,23842,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N50,125000,113294,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N50,125000,113008,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N50,125000,113160,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N50,125000,37372,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N50,125000,40339,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N50,125000,25953,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N50,125000,113189,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N50,125000,114311,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N50,125000,112341,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N50,125000,56868,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N50,125000,46049,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N50,125000,44853,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N50,125000,113940,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N50,125000,114492,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N50,125000,114367,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N50,125000,62135,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N50,125000,63040,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N50,125000,49137,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N60,216000,192687,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N60,216000,192512,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N60,216000,191949,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N60,216000,60715,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N60,216000,57047,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N60,216000,56878,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N60,216000,193021,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N60,216000,192645,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N60,216000,193236,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N60,216000,49989,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N60,216000,46257,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N60,216000,41971,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N60,216000,194186,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N60,216000,193199,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N60,216000,193176,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N60,216000,52717,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N60,216000,47085,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N60,216000,62783,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N60,216000,196256,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N60,216000,195767,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N60,216000,195728,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N60,216000,43629,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N60,216000,41725,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N60,216000,42737,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N60,216000,192998,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N60,216000,191823,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N60,216000,193706,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N60,216000,41686,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N60,216000,57656,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N60,216000,58460,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N60,216000,194157,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N60,216000,193556,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N60,216000,194614,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N60,216000,57343,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N60,216000,75829,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N60,216000,62055,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N60,216000,195635,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N60,216000,194078,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N60,216000,194512,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N60,216000,63451,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N60,216000,78505,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N60,216000,80120,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N60,216000,193838,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N60,216000,193937,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N60,216000,195303,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N60,216000,78777,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N60,216000,86280,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N60,216000,103826,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N70,343000,305092,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N70,343000,304813,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N70,343000,302906,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N70,343000,92397,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N70,343000,88920,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N70,343000,89985,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N70,343000,309387,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N70,343000,306938,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N70,343000,305669,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N70,343000,73117,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N70,343000,70406,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N70,343000,75132,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N70,343000,308089,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N70,343000,307011,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N70,343000,308357,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N70,343000,89992,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N70,343000,73685,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N70,343000,87892,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N70,343000,305631,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N70,343000,306547,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N70,343000,305870,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N70,343000,100944,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N70,343000,82291,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N70,343000,113974,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N70,343000,307463,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N70,343000,307183,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N70,343000,307652,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N70,343000,90625,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N70,343000,126976,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N70,343000,111935,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N70,343000,308129,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N70,343000,310439,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N70,343000,309930,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N70,343000,123435,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N70,343000,116224,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N70,343000,119010,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N70,343000,310444,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N70,343000,310620,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N70,343000,311007,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N70,343000,149538,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N70,343000,155127,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N70,343000,121612,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N70,343000,308096,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N70,343000,308849,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N70,343000,307805,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N70,343000,156757,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N70,343000,135283,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N70,343000,160524,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N80,512000,455897,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N80,512000,448824,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N80,512000,448533,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N80,512000,133901,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N80,512000,131266,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N80,512000,134408,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N80,512000,452419,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N80,512000,454496,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N80,512000,455102,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N80,512000,103451,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N80,512000,107201,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N80,512000,109506,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N80,512000,455669,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N80,512000,457195,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N80,512000,457676,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N80,512000,117110,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N80,512000,115259,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N80,512000,99448,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N80,512000,454510,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N80,512000,457919,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N80,512000,461109,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N80,512000,109807,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N80,512000,124043,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N80,512000,125649,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N80,512000,453233,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N80,512000,455452,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N80,512000,454347,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N80,512000,147807,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N80,512000,144653,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N80,512000,144290,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N80,512000,455734,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N80,512000,458287,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N80,512000,459758,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N80,512000,184544,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N80,512000,193173,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N80,512000,195556,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N80,512000,454775,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N80,512000,459816,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N80,512000,460078,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N80,512000,202987,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N80,512000,182849,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N80,512000,198330,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N80,512000,456035,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N80,512000,454700,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N80,512000,456798,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N80,512000,183426,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N80,512000,185059,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N80,512000,149558,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N90,729000,639991,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N90,729000,635133,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N90,729000,635262,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N90,729000,189641,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N90,729000,189560,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N90,729000,188909,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N90,729000,642583,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N90,729000,645957,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N90,729000,641945,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N90,729000,140989,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N90,729000,143540,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N90,729000,143904,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N90,729000,645811,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N90,729000,648586,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N90,729000,650939,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N90,729000,173527,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N90,729000,160011,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N90,729000,175919,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N90,729000,648458,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N90,729000,648765,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N90,729000,654011,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N90,729000,205152,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N90,729000,204433,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N90,729000,202119,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N90,729000,644241,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N90,729000,645395,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N90,729000,647673,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N90,729000,221739,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N90,729000,240124,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N90,729000,222859,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N90,729000,649553,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N90,729000,649957,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N90,729000,650569,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N90,729000,247012,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N90,729000,257655,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N90,729000,273243,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N90,729000,654552,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N90,729000,654771,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N90,729000,655653,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N90,729000,257173,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N90,729000,223427,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N90,729000,211128,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N90,729000,645003,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N90,729000,649453,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N90,729000,648376,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N90,729000,244073,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N90,729000,272472,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N90,729000,206887,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N100,1000000,868990,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N100,1000000,873325,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N100,1000000,870565,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N100,1000000,257637,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N100,1000000,254410,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N100,1000000,252856,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N100,1000000,891935,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N100,1000000,889782,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N100,1000000,894448,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N100,1000000,191282,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N100,1000000,203241,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N100,1000000,191489,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N100,1000000,887702,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N100,1000000,890398,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N100,1000000,885757,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N100,1000000,193817,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N100,1000000,216449,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N100,1000000,207306,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N100,1000000,889625,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N100,1000000,887220,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N100,1000000,884248,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N100,1000000,256483,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N100,1000000,226295,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N100,1000000,241821,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N100,1000000,877920,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N100,1000000,880189,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N100,1000000,886251,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N100,1000000,276719,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N100,1000000,278996,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N100,1000000,264672,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N100,1000000,895718,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N100,1000000,882894,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N100,1000000,889056,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N100,1000000,320993,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N100,1000000,303599,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N100,1000000,322677,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N100,1000000,887021,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N100,1000000,889794,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N100,1000000,893736,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N100,1000000,323061,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N100,1000000,272428,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N100,1000000,275855,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N100,1000000,885554,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N100,1000000,889000,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N100,1000000,889763,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N100,1000000,336120,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N100,1000000,301167,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N100,1000000,313649,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N110,1331000,1167653,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N110,1331000,1161403,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N110,1331000,1163555,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N110,1331000,335105,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N110,1331000,340525,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N110,1331000,333859,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N110,1331000,1188579,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N110,1331000,1177661,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N110,1331000,1173650,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N110,1331000,256500,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N110,1331000,268691,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N110,1331000,252783,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N110,1331000,1189074,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N110,1331000,1186096,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N110,1331000,1180714,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N110,1331000,260747,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N110,1331000,291370,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N110,1331000,274012,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N110,1331000,1173506,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N110,1331000,1183571,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N110,1331000,1182456,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N110,1331000,281525,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N110,1331000,315792,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N110,1331000,300358,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N110,1331000,1184341,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N110,1331000,1186236,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N110,1331000,1172553,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N110,1331000,326946,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N110,1331000,346940,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N110,1331000,335150,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N110,1331000,1169565,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N110,1331000,1177398,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N110,1331000,1176322,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N110,1331000,380872,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N110,1331000,358170,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N110,1331000,357003,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N110,1331000,1183203,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N110,1331000,1177507,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N110,1331000,1179470,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N110,1331000,428076,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N110,1331000,409855,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N110,1331000,366196,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N110,1331000,1176594,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N110,1331000,1175126,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N110,1331000,1179130,Cell-Based,CPU-Parallel,NeoN,128,gpu-nvidia-h200-3
+LDC_N110,1331000,368518,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N110,1331000,395130,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N110,1331000,371161,Cell-Based,CPU-Parallel,NeoN + Julia,128,gpu-nvidia-h200-3
+LDC_N120,1728000,1500374,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N120,1728000,1512532,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N120,1728000,1503887,Cell-Based,CPU-Parallel,NeoN,1,gpu-nvidia-h200-3
+LDC_N120,1728000,432499,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N120,1728000,431087,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N120,1728000,431384,Cell-Based,CPU-Parallel,NeoN + Julia,1,gpu-nvidia-h200-3
+LDC_N120,1728000,1517727,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N120,1728000,1528502,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N120,1728000,1526974,Cell-Based,CPU-Parallel,NeoN,2,gpu-nvidia-h200-3
+LDC_N120,1728000,316961,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N120,1728000,328206,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N120,1728000,327482,Cell-Based,CPU-Parallel,NeoN + Julia,2,gpu-nvidia-h200-3
+LDC_N120,1728000,1509536,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N120,1728000,1512350,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N120,1728000,1512452,Cell-Based,CPU-Parallel,NeoN,4,gpu-nvidia-h200-3
+LDC_N120,1728000,309741,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N120,1728000,310441,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N120,1728000,294848,Cell-Based,CPU-Parallel,NeoN + Julia,4,gpu-nvidia-h200-3
+LDC_N120,1728000,1510317,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N120,1728000,1509273,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N120,1728000,1506871,Cell-Based,CPU-Parallel,NeoN,8,gpu-nvidia-h200-3
+LDC_N120,1728000,390344,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N120,1728000,357518,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N120,1728000,359534,Cell-Based,CPU-Parallel,NeoN + Julia,8,gpu-nvidia-h200-3
+LDC_N120,1728000,1507161,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N120,1728000,1510264,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N120,1728000,1506869,Cell-Based,CPU-Parallel,NeoN,16,gpu-nvidia-h200-3
+LDC_N120,1728000,398337,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N120,1728000,366643,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N120,1728000,377784,Cell-Based,CPU-Parallel,NeoN + Julia,16,gpu-nvidia-h200-3
+LDC_N120,1728000,1505627,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N120,1728000,1511654,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N120,1728000,1519315,Cell-Based,CPU-Parallel,NeoN,32,gpu-nvidia-h200-3
+LDC_N120,1728000,405634,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N120,1728000,400878,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N120,1728000,369788,Cell-Based,CPU-Parallel,NeoN + Julia,32,gpu-nvidia-h200-3
+LDC_N120,1728000,1509443,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N120,1728000,1503624,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N120,1728000,1523145,Cell-Based,CPU-Parallel,NeoN,64,gpu-nvidia-h200-3
+LDC_N120,1728000,519783,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N120,1728000,487747,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N120,1728000,460797,Cell-Based,CPU-Parallel,NeoN + Julia,64,gpu-nvidia-h200-3
+LDC_N130,2197000,1910340,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N130,2197000,1928636,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N130,2197000,1914829,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N130,2197000,549798,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N130,2197000,549131,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N130,2197000,550352,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N130,2197000,1931436,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N130,2197000,1928528,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N130,2197000,1926525,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N130,2197000,417985,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N130,2197000,418452,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N130,2197000,417302,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N130,2197000,1928315,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N130,2197000,1927270,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N130,2197000,1921863,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N130,2197000,393480,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N130,2197000,407028,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N130,2197000,391547,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N130,2197000,1912733,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N130,2197000,1914368,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N130,2197000,1922855,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N130,2197000,385719,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N130,2197000,424185,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N130,2197000,435630,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N130,2197000,1923551,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N130,2197000,1921334,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N130,2197000,1913788,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N130,2197000,426238,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N130,2197000,424332,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N130,2197000,436568,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N130,2197000,1914412,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N130,2197000,1917503,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N130,2197000,1926962,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N130,2197000,490947,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N130,2197000,487188,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N130,2197000,440249,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N130,2197000,1911698,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N130,2197000,1915313,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N130,2197000,1914006,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N130,2197000,568985,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N130,2197000,523965,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N130,2197000,507505,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N130,2197000,1918752,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N130,2197000,1920160,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N130,2197000,1911922,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N130,2197000,501617,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N130,2197000,540481,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N130,2197000,504760,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N140,2744000,2386808,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N140,2744000,2376648,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N140,2744000,2379966,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N140,2744000,692051,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N140,2744000,690879,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N140,2744000,690129,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N140,2744000,2412991,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N140,2744000,2414795,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N140,2744000,2401715,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N140,2744000,512565,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N140,2744000,508303,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N140,2744000,510615,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N140,2744000,2399696,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N140,2744000,2418311,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N140,2744000,2397093,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N140,2744000,475576,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N140,2744000,474499,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N140,2744000,490403,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N140,2744000,2382822,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N140,2744000,2380843,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N140,2744000,2366807,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N140,2744000,502272,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N140,2744000,507297,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N140,2744000,505226,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N140,2744000,2394113,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N140,2744000,2396886,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N140,2744000,2390471,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N140,2744000,533404,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N140,2744000,535875,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N140,2744000,537289,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N140,2744000,2393233,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N140,2744000,2392109,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N140,2744000,2394537,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N140,2744000,602409,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N140,2744000,570094,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N140,2744000,551613,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N140,2744000,2385255,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N140,2744000,2387457,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N140,2744000,2377035,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N140,2744000,681523,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N140,2744000,650797,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N140,2744000,662952,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N140,2744000,2403735,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N140,2744000,2407538,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N140,2744000,2393066,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N140,2744000,692082,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N140,2744000,577564,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N140,2744000,576249,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N150,3375000,2935445,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N150,3375000,2935304,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N150,3375000,2967078,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N150,3375000,838188,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N150,3375000,838910,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N150,3375000,838388,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N150,3375000,2938675,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N150,3375000,2945955,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N150,3375000,2946452,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N150,3375000,620052,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N150,3375000,617246,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N150,3375000,617691,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N150,3375000,2921150,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N150,3375000,2958762,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N150,3375000,2926188,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N150,3375000,616413,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N150,3375000,602756,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N150,3375000,626220,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N150,3375000,2966722,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N150,3375000,2968033,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N150,3375000,2971388,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N150,3375000,623705,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N150,3375000,621061,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N150,3375000,632302,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N150,3375000,2941869,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N150,3375000,2918440,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N150,3375000,2925874,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N150,3375000,632313,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N150,3375000,616038,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N150,3375000,586200,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N150,3375000,2929305,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N150,3375000,2916703,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N150,3375000,2915548,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N150,3375000,645642,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N150,3375000,640709,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N150,3375000,660359,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N150,3375000,2939775,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N150,3375000,2936908,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N150,3375000,2926917,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N150,3375000,751643,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N150,3375000,732348,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N150,3375000,763048,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N150,3375000,2915271,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N150,3375000,2914325,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N150,3375000,2915825,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N150,3375000,766527,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N150,3375000,749897,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N150,3375000,721941,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N160,4096000,3537230,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N160,4096000,3539413,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N160,4096000,3551562,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N160,4096000,1015317,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N160,4096000,1027552,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N160,4096000,1014318,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N160,4096000,3559947,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N160,4096000,3565458,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N160,4096000,3576616,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N160,4096000,748261,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N160,4096000,746535,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N160,4096000,745553,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N160,4096000,3551040,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N160,4096000,3535306,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N160,4096000,3541611,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N160,4096000,717619,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N160,4096000,744996,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N160,4096000,728349,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N160,4096000,3544990,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N160,4096000,3543526,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N160,4096000,3537613,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N160,4096000,712249,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N160,4096000,716440,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N160,4096000,712681,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N160,4096000,3548393,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N160,4096000,3545728,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N160,4096000,3556779,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N160,4096000,710171,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N160,4096000,738563,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N160,4096000,692241,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N160,4096000,3544260,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N160,4096000,3544888,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N160,4096000,3539402,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N160,4096000,745488,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N160,4096000,742501,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N160,4096000,748332,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N160,4096000,3548458,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N160,4096000,3550110,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N160,4096000,3548920,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N160,4096000,840419,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N160,4096000,769983,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N160,4096000,791700,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N160,4096000,3550984,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N160,4096000,3550706,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N160,4096000,3528818,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N160,4096000,861882,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N160,4096000,860868,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N160,4096000,852788,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N170,4913000,4258481,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N170,4913000,4234997,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N170,4913000,4247872,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N170,4913000,1233369,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N170,4913000,1231881,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N170,4913000,1231915,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N170,4913000,4281585,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N170,4913000,4282235,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N170,4913000,4259754,Cell-Based,CPU-Parallel,NeoN,2
+LDC_N170,4913000,881089,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N170,4913000,880358,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N170,4913000,884218,Cell-Based,CPU-Parallel,NeoN + Julia,2
+LDC_N170,4913000,4282620,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N170,4913000,4262897,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N170,4913000,4239056,Cell-Based,CPU-Parallel,NeoN,4
+LDC_N170,4913000,850737,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N170,4913000,856769,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N170,4913000,911516,Cell-Based,CPU-Parallel,NeoN + Julia,4
+LDC_N170,4913000,4254627,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N170,4913000,4241657,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N170,4913000,4267727,Cell-Based,CPU-Parallel,NeoN,8
+LDC_N170,4913000,856417,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N170,4913000,852068,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N170,4913000,841485,Cell-Based,CPU-Parallel,NeoN + Julia,8
+LDC_N170,4913000,4255175,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N170,4913000,4260410,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N170,4913000,4280439,Cell-Based,CPU-Parallel,NeoN,16
+LDC_N170,4913000,898886,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N170,4913000,882226,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N170,4913000,887402,Cell-Based,CPU-Parallel,NeoN + Julia,16
+LDC_N170,4913000,4268102,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N170,4913000,4279107,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N170,4913000,4260971,Cell-Based,CPU-Parallel,NeoN,32
+LDC_N170,4913000,885799,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N170,4913000,880690,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N170,4913000,883963,Cell-Based,CPU-Parallel,NeoN + Julia,32
+LDC_N170,4913000,4274865,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N170,4913000,4268844,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N170,4913000,4271530,Cell-Based,CPU-Parallel,NeoN,64
+LDC_N170,4913000,1001313,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N170,4913000,947249,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N170,4913000,903518,Cell-Based,CPU-Parallel,NeoN + Julia,64
+LDC_N170,4913000,4273453,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N170,4913000,4263158,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N170,4913000,4253714,Cell-Based,CPU-Parallel,NeoN,128
+LDC_N170,4913000,1002279,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N170,4913000,994702,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N170,4913000,1020903,Cell-Based,CPU-Parallel,NeoN + Julia,128
+LDC_N180,5832000,5067441,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N180,5832000,5068640,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N180,5832000,5070012,Cell-Based,CPU-Parallel,NeoN,1
+LDC_N180,5832000,1434882,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N180,5832000,1431303,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N180,5832000,1433472,Cell-Based,CPU-Parallel,NeoN + Julia,1
+LDC_N190,6859000,5964933,Face-Based,Cell-Based,NeoN,1
+LDC_N190,6859000,5963159,Face-Based,Cell-Based,NeoN,1
+LDC_N190,6859000,5933680,Face-Based,Cell-Based,NeoN,1
+LDC_N190,6859000,1709754,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N190,6859000,1707404,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N190,6859000,1707728,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N190,6859000,5949439,Face-Based,Cell-Based,NeoN,2
+LDC_N190,6859000,5924774,Face-Based,Cell-Based,NeoN,2
+LDC_N190,6859000,5921111,Face-Based,Cell-Based,NeoN,2
+LDC_N190,6859000,1225319,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N190,6859000,1226060,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N190,6859000,1221688,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N190,6859000,5962849,Face-Based,Cell-Based,NeoN,4
+LDC_N190,6859000,5946906,Face-Based,Cell-Based,NeoN,4
+LDC_N190,6859000,5949996,Face-Based,Cell-Based,NeoN,4
+LDC_N190,6859000,1215444,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N190,6859000,1196328,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N190,6859000,1230086,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N190,6859000,5998252,Face-Based,Cell-Based,NeoN,8
+LDC_N190,6859000,5955929,Face-Based,Cell-Based,NeoN,8
+LDC_N190,6859000,5965186,Face-Based,Cell-Based,NeoN,8
+LDC_N190,6859000,1135745,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N190,6859000,1136441,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N190,6859000,1143509,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N190,6859000,5948752,Face-Based,Cell-Based,NeoN,16
+LDC_N190,6859000,5948825,Face-Based,Cell-Based,NeoN,16
+LDC_N190,6859000,5933642,Face-Based,Cell-Based,NeoN,16
+LDC_N190,6859000,1168066,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N190,6859000,1169447,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N190,6859000,1169377,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N190,6859000,5938423,Face-Based,Cell-Based,NeoN,32
+LDC_N190,6859000,5934319,Face-Based,Cell-Based,NeoN,32
+LDC_N190,6859000,5917567,Face-Based,Cell-Based,NeoN,32
+LDC_N190,6859000,1242619,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N190,6859000,1202400,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N190,6859000,1240383,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N190,6859000,5977569,Face-Based,Cell-Based,NeoN,64
+LDC_N190,6859000,5930419,Face-Based,Cell-Based,NeoN,64
+LDC_N190,6859000,5906027,Face-Based,Cell-Based,NeoN,64
+LDC_N190,6859000,1367085,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N190,6859000,1321352,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N190,6859000,1319177,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N190,6859000,5959652,Face-Based,Cell-Based,NeoN,128
+LDC_N190,6859000,5903588,Face-Based,Cell-Based,NeoN,128
+LDC_N190,6859000,5917180,Face-Based,Cell-Based,NeoN,128
+LDC_N190,6859000,1309715,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N190,6859000,1296237,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N190,6859000,1375981,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N200,8000000,6922542,Face-Based,Cell-Based,NeoN,1
+LDC_N200,8000000,6904906,Face-Based,Cell-Based,NeoN,1
+LDC_N200,8000000,6897764,Face-Based,Cell-Based,NeoN,1
+LDC_N200,8000000,1964245,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N200,8000000,1961694,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N200,8000000,1960228,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N200,8000000,6936853,Face-Based,Cell-Based,NeoN,2
+LDC_N200,8000000,6946193,Face-Based,Cell-Based,NeoN,2
+LDC_N200,8000000,6945897,Face-Based,Cell-Based,NeoN,2
+LDC_N200,8000000,1417170,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N200,8000000,1416166,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N200,8000000,1419567,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N200,8000000,6908331,Face-Based,Cell-Based,NeoN,4
+LDC_N200,8000000,6928929,Face-Based,Cell-Based,NeoN,4
+LDC_N200,8000000,6919839,Face-Based,Cell-Based,NeoN,4
+LDC_N200,8000000,1419247,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N200,8000000,1404977,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N200,8000000,1411358,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N200,8000000,6921684,Face-Based,Cell-Based,NeoN,8
+LDC_N200,8000000,6971243,Face-Based,Cell-Based,NeoN,8
+LDC_N200,8000000,6902787,Face-Based,Cell-Based,NeoN,8
+LDC_N200,8000000,1309501,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N200,8000000,1261826,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N200,8000000,1296923,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N200,8000000,6946451,Face-Based,Cell-Based,NeoN,16
+LDC_N200,8000000,6950126,Face-Based,Cell-Based,NeoN,16
+LDC_N200,8000000,6946520,Face-Based,Cell-Based,NeoN,16
+LDC_N200,8000000,1343672,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N200,8000000,1365948,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N200,8000000,1320360,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N200,8000000,6870769,Face-Based,Cell-Based,NeoN,32
+LDC_N200,8000000,6877044,Face-Based,Cell-Based,NeoN,32
+LDC_N200,8000000,6873514,Face-Based,Cell-Based,NeoN,32
+LDC_N200,8000000,1438101,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N200,8000000,1450552,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N200,8000000,1408889,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N200,8000000,6915471,Face-Based,Cell-Based,NeoN,64
+LDC_N200,8000000,6888680,Face-Based,Cell-Based,NeoN,64
+LDC_N200,8000000,6885444,Face-Based,Cell-Based,NeoN,64
+LDC_N200,8000000,1519047,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N200,8000000,1535339,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N200,8000000,1505637,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N200,8000000,6943975,Face-Based,Cell-Based,NeoN,128
+LDC_N200,8000000,6945337,Face-Based,Cell-Based,NeoN,128
+LDC_N200,8000000,6912925,Face-Based,Cell-Based,NeoN,128
+LDC_N200,8000000,1485947,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N200,8000000,1457694,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N200,8000000,1478046,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N220,10648000,9207384,Face-Based,Cell-Based,NeoN,1
+LDC_N220,10648000,9174674,Face-Based,Cell-Based,NeoN,1
+LDC_N220,10648000,9188287,Face-Based,Cell-Based,NeoN,1
+LDC_N220,10648000,2613312,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N220,10648000,2614902,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N220,10648000,2641093,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N220,10648000,9294376,Face-Based,Cell-Based,NeoN,2
+LDC_N220,10648000,9260038,Face-Based,Cell-Based,NeoN,2
+LDC_N220,10648000,9283579,Face-Based,Cell-Based,NeoN,2
+LDC_N220,10648000,1884105,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N220,10648000,1889354,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N220,10648000,1899616,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N220,10648000,9321830,Face-Based,Cell-Based,NeoN,4
+LDC_N220,10648000,9313564,Face-Based,Cell-Based,NeoN,4
+LDC_N220,10648000,9322447,Face-Based,Cell-Based,NeoN,4
+LDC_N220,10648000,1872905,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N220,10648000,1859226,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N220,10648000,1881709,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N220,10648000,9217589,Face-Based,Cell-Based,NeoN,8
+LDC_N220,10648000,9201812,Face-Based,Cell-Based,NeoN,8
+LDC_N220,10648000,9179609,Face-Based,Cell-Based,NeoN,8
+LDC_N220,10648000,1759833,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N220,10648000,1775578,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N220,10648000,1788751,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N220,10648000,9129381,Face-Based,Cell-Based,NeoN,16
+LDC_N220,10648000,9136506,Face-Based,Cell-Based,NeoN,16
+LDC_N220,10648000,9100945,Face-Based,Cell-Based,NeoN,16
+LDC_N220,10648000,1670908,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N220,10648000,1701224,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N220,10648000,1711833,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N220,10648000,9183240,Face-Based,Cell-Based,NeoN,32
+LDC_N220,10648000,9179461,Face-Based,Cell-Based,NeoN,32
+LDC_N220,10648000,9199278,Face-Based,Cell-Based,NeoN,32
+LDC_N220,10648000,1833889,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N220,10648000,1897520,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N220,10648000,1841226,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N220,10648000,9257920,Face-Based,Cell-Based,NeoN,64
+LDC_N220,10648000,9232480,Face-Based,Cell-Based,NeoN,64
+LDC_N220,10648000,9177799,Face-Based,Cell-Based,NeoN,64
+LDC_N220,10648000,1926780,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N220,10648000,2009481,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N220,10648000,1913725,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N220,10648000,9207358,Face-Based,Cell-Based,NeoN,128
+LDC_N220,10648000,9173084,Face-Based,Cell-Based,NeoN,128
+LDC_N220,10648000,9154550,Face-Based,Cell-Based,NeoN,128
+LDC_N220,10648000,2016827,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N220,10648000,2009986,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N220,10648000,1977798,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N240,13824000,11908901,Face-Based,Cell-Based,NeoN,1
+LDC_N240,13824000,11896858,Face-Based,Cell-Based,NeoN,1
+LDC_N240,13824000,11920942,Face-Based,Cell-Based,NeoN,1
+LDC_N240,13824000,3459752,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N240,13824000,3420743,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N240,13824000,3417391,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N240,13824000,12039904,Face-Based,Cell-Based,NeoN,2
+LDC_N240,13824000,12031996,Face-Based,Cell-Based,NeoN,2
+LDC_N240,13824000,12073319,Face-Based,Cell-Based,NeoN,2
+LDC_N240,13824000,2441018,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N240,13824000,2451141,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N240,13824000,2449763,Face-Based,Cell-Based,NeoN + Julia,2
+LDC_N240,13824000,11915290,Face-Based,Cell-Based,NeoN,4
+LDC_N240,13824000,11918856,Face-Based,Cell-Based,NeoN,4
+LDC_N240,13824000,11914383,Face-Based,Cell-Based,NeoN,4
+LDC_N240,13824000,2407782,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N240,13824000,2395327,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N240,13824000,2412298,Face-Based,Cell-Based,NeoN + Julia,4
+LDC_N240,13824000,11939654,Face-Based,Cell-Based,NeoN,8
+LDC_N240,13824000,11976759,Face-Based,Cell-Based,NeoN,8
+LDC_N240,13824000,11994456,Face-Based,Cell-Based,NeoN,8
+LDC_N240,13824000,2229060,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N240,13824000,2262144,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N240,13824000,2303397,Face-Based,Cell-Based,NeoN + Julia,8
+LDC_N240,13824000,11942961,Face-Based,Cell-Based,NeoN,16
+LDC_N240,13824000,11878122,Face-Based,Cell-Based,NeoN,16
+LDC_N240,13824000,11911691,Face-Based,Cell-Based,NeoN,16
+LDC_N240,13824000,2244042,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N240,13824000,2275401,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N240,13824000,2285408,Face-Based,Cell-Based,NeoN + Julia,16
+LDC_N240,13824000,12019473,Face-Based,Cell-Based,NeoN,32
+LDC_N240,13824000,12085761,Face-Based,Cell-Based,NeoN,32
+LDC_N240,13824000,12025336,Face-Based,Cell-Based,NeoN,32
+LDC_N240,13824000,2374992,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N240,13824000,2353216,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N240,13824000,2401907,Face-Based,Cell-Based,NeoN + Julia,32
+LDC_N240,13824000,12035136,Face-Based,Cell-Based,NeoN,64
+LDC_N240,13824000,12022558,Face-Based,Cell-Based,NeoN,64
+LDC_N240,13824000,12045439,Face-Based,Cell-Based,NeoN,64
+LDC_N240,13824000,2585960,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N240,13824000,2485296,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N240,13824000,2478097,Face-Based,Cell-Based,NeoN + Julia,64
+LDC_N240,13824000,11952743,Face-Based,Cell-Based,NeoN,128
+LDC_N240,13824000,12001668,Face-Based,Cell-Based,NeoN,128
+LDC_N240,13824000,11966388,Face-Based,Cell-Based,NeoN,128
+LDC_N240,13824000,2559273,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N240,13824000,2616129,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N240,13824000,2699286,Face-Based,Cell-Based,NeoN + Julia,128
+LDC_N260,17576000,15236688,Face-Based,Cell-Based,NeoN,1
+LDC_N260,17576000,15157812,Face-Based,Cell-Based,NeoN,1
+LDC_N260,17576000,15192690,Face-Based,Cell-Based,NeoN,1
+LDC_N260,17576000,4305185,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N260,17576000,4311839,Face-Based,Cell-Based,NeoN + Julia,1
+LDC_N260,17576000,4308648,Face-Based,Cell-Based,NeoN + Julia,1

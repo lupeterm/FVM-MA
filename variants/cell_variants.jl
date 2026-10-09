@@ -325,7 +325,7 @@ function PrecalculatedWeightsCellBasedAssembly_t(input::SOAMatrixAssemblyInput{P
             valueLower = -ϕf * (1 - weights_f) + diffusion
             
             offdiagIdx = ifelse(isOwner, faces.ownerRelOwnerIdx[iFace], faces.neighborRelNeighborIdx[iFace])
-            Atomix.@atomic vals[offdiagIdx] += ifelse(isOwner, valueLower, valueUpper)
+             vals[offdiagIdx] += ifelse(isOwner, valueLower, valueUpper)
             diag += ifelse(!isOwner, valueLower, valueUpper)
         end
         for iFace in cells.iFaces[iElement][cells.nInternalFaces[iElement]+1:length(cells.nInternalFaces[iElement])]
@@ -379,7 +379,7 @@ function DynamicCellBasedAssembly_t(input::SOAMatrixAssemblyInput{P}, vals::Vect
             valueLower = -ϕf * (1 - weights_f) + diffusion
             
             offdiagIdx = ifelse(isOwner, faces.ownerRelOwnerIdx[iFace], faces.neighborRelNeighborIdx[iFace])
-            Atomix.@atomic vals[offdiagIdx] += ifelse(isOwner, valueLower, valueUpper)
+             vals[offdiagIdx] += ifelse(isOwner, valueLower, valueUpper)
             diag += ifelse(!isOwner, valueLower, valueUpper)
         end
         for iFace in cells.iFaces[iElement][cells.nInternalFaces[iElement]+1:length(cells.nInternalFaces[iElement])]
@@ -433,7 +433,7 @@ function HardcodedUpwindCellBasedAssembly_t(input::SOAMatrixAssemblyInput{P}, va
             valueLower = -ϕf * (1 - weights_f) + diffusion
             
             offdiagIdx = ifelse(isOwner, faces.ownerRelOwnerIdx[iFace], faces.neighborRelNeighborIdx[iFace])
-            Atomix.@atomic vals[offdiagIdx] += ifelse(isOwner, valueLower, valueUpper)
+             vals[offdiagIdx] += ifelse(isOwner, valueLower, valueUpper)
             diag += ifelse(!isOwner, valueLower, valueUpper)
         end
         for iFace in cells.iFaces[iElement][cells.nInternalFaces[iElement]+1:length(cells.nInternalFaces[iElement])]
@@ -487,7 +487,7 @@ function HardcodedCDFCellBasedAssembly_t(input::SOAMatrixAssemblyInput{P}, vals:
             valueLower = -ϕf * (1 - weights_f) + diffusion
             
             offdiagIdx = ifelse(isOwner, faces.ownerRelOwnerIdx[iFace], faces.neighborRelNeighborIdx[iFace])
-            Atomix.@atomic vals[offdiagIdx] += ifelse(isOwner, valueLower, valueUpper)
+             vals[offdiagIdx] += ifelse(isOwner, valueLower, valueUpper)
             diag += ifelse(!isOwner, valueLower, valueUpper)
         end
         for iFace in cells.iFaces[iElement][cells.nInternalFaces[iElement]+1:length(cells.nInternalFaces[iElement])]

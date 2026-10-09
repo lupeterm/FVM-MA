@@ -275,10 +275,10 @@ function FusedFaceBasedAssembly_t(input::SOAMatrixAssemblyInput{P}, vals::Vector
             diffusion = nu[faces.iOwner[iFace]] * faces.gDiff[iFace]
             # RHS/Source
             value = convection .+ diffusion
-            @inbounds vals[faces.ownerIdx[iFace]] -= diffusion
-            @inbounds RHS[faces.iOwner[iFace]] += value[1]
-            @inbounds RHS[faces.iOwner[iFace]+nCells] += value[2]
-            @inbounds RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
+            Atomix.@atomic vals[faces.ownerIdx[iFace]] -= diffusion
+            Atomix.@atomic RHS[faces.iOwner[iFace]] += value[1]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells] += value[2]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
         end
     end
     return vals, RHS
@@ -324,10 +324,10 @@ function PrecalculatedWeightsFaceBasedAssembly_t(input::SOAMatrixAssemblyInput{P
             diffusion = nu[faces.iOwner[iFace]] * faces.gDiff[iFace]
             # RHS/Source
             value = convection .+ diffusion
-            @inbounds vals[faces.ownerIdx[iFace]] -= diffusion
-            @inbounds RHS[faces.iOwner[iFace]] += value[1]
-            @inbounds RHS[faces.iOwner[iFace]+nCells] += value[2]
-            @inbounds RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
+            Atomix.@atomic vals[faces.ownerIdx[iFace]] -= diffusion
+            Atomix.@atomic RHS[faces.iOwner[iFace]] += value[1]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells] += value[2]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
         end
     end
     return  vals, RHS
@@ -371,10 +371,10 @@ function HardcodedUpwindFaceBasedAssembly_t(input::SOAMatrixAssemblyInput{P}, va
             diffusion = nu[faces.iOwner[iFace]] * faces.gDiff[iFace]
             # RHS/Source
             value = convection .+ diffusion
-            @inbounds vals[faces.ownerIdx[iFace]] -= diffusion
-            @inbounds RHS[faces.iOwner[iFace]] += value[1]
-            @inbounds RHS[faces.iOwner[iFace]+nCells] += value[2]
-            @inbounds RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
+            Atomix.@atomic vals[faces.ownerIdx[iFace]] -= diffusion
+            Atomix.@atomic RHS[faces.iOwner[iFace]] += value[1]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells] += value[2]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
         end
     end
     return  vals, RHS
@@ -418,10 +418,10 @@ function HardcodedCDFFaceBasedAssembly_t(input::SOAMatrixAssemblyInput{P}, vals:
             diffusion = nu[faces.iOwner[iFace]] * faces.gDiff[iFace]
             # RHS/Source
             value = convection .+ diffusion
-            @inbounds vals[faces.ownerIdx[iFace]] -= diffusion
-            @inbounds RHS[faces.iOwner[iFace]] += value[1]
-            @inbounds RHS[faces.iOwner[iFace]+nCells] += value[2]
-            @inbounds RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
+            Atomix.@atomic vals[faces.ownerIdx[iFace]] -= diffusion
+            Atomix.@atomic RHS[faces.iOwner[iFace]] += value[1]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells] += value[2]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
         end
     end
     return  vals, RHS
@@ -465,10 +465,10 @@ function DynamicFaceBasedAssembly_t(input::SOAMatrixAssemblyInput{P}, vals::Vect
             diffusion = nu[faces.iOwner[iFace]] * faces.gDiff[iFace]
             # RHS/Source
             value = convection .+ diffusion
-            @inbounds vals[faces.ownerIdx[iFace]] -= diffusion
-            @inbounds RHS[faces.iOwner[iFace]] += value[1]
-            @inbounds RHS[faces.iOwner[iFace]+nCells] += value[2]
-            @inbounds RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
+            Atomix.@atomic vals[faces.ownerIdx[iFace]] -= diffusion
+            Atomix.@atomic RHS[faces.iOwner[iFace]] += value[1]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells] += value[2]
+            Atomix.@atomic RHS[faces.iOwner[iFace]+nCells+nCells] += value[3]
         end
     end
     return  vals, RHS

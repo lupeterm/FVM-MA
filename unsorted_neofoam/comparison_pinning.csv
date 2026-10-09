@@ -1,0 +1,2161 @@
+case,cells,time_ns,strategy,executor,julia_or_neon,threads
+LDC_N260,17576000,23189610,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22659514,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22394064,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5033506,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5040032,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5041886,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6715863,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6107633,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6091873,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15306394,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15395321,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15626302,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2062181,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059387,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2060182,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2470783,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2287337,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2451112,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8609285,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8524695,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8545059,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1080532,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1074222,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1063667,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1260467,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1371425,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1184371,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4475851,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4458407,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4455804,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,587661,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,593932,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,590718,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,664951,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,636306,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,645586,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2278535,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2271770,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2279001,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,316945,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333281,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,318941,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,355704,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,379633,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,379790,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1139891,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1152335,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1154057,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,202270,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,219064,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216359,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,1301945,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,1479062,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,1499993,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,639591,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,640796,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,768161,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,198615,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185565,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,182070,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,1419839,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,1505330,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,1410826,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,526441,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,529997,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,532101,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,176040,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,175104,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,178502,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,1084774,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,1476905,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,1231887,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22636541,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22375819,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22252089,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5153758,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5148086,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5133589,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,7490690,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,7111091,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,7217861,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15337699,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15139900,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15134482,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2047736,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2054015,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2049914,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2482658,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2277897,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2384490,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8607590,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8575605,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8551424,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1056955,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1057860,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1058017,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1235225,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1230065,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1195580,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4462463,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4461665,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4469704,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,562060,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,560992,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,561002,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,642413,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,651443,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,641418,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2282831,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2274065,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2272096,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,318306,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,337484,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,337131,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,369915,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,360535,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,396402,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1144748,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1143679,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1139029,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,217287,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,199875,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217974,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,210588,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,214419,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,219371,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,633681,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,635755,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,637438,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,184542,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,202072,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,168439,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,195042,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,188865,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,182806,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,527196,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,532750,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,536460,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,180911,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,185651,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,188326,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,177273,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,175554,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,149040,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23085878,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22301088,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22414564,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5031453,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5057633,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5038938,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6524882,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6213997,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6104426,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15244221,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15048531,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15278445,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2053776,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2058692,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2054434,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2401161,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2280310,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2264566,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8574808,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8491291,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8550781,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1061989,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1072127,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1069768,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1215657,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1193335,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1192517,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4476595,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4473878,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4453710,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,585527,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,591682,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,593913,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,637617,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,648347,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,660417,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2261646,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2263254,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2254398,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,334169,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,319326,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335868,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,355821,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,388645,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,350422,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1141960,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1139540,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1144912,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,229706,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216634,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217335,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,206720,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,222694,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,221257,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,641755,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,649990,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,652045,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,186260,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184868,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184545,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,211297,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,189970,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,193627,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,548018,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,563752,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,580430,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,190065,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,177772,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,184652,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,168503,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,166310,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,148476,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23007610,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22857860,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22494994,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5036957,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5030787,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5043096,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6526657,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6118912,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6265621,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15154479,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14921160,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15283893,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2050132,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2048835,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2047337,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2515133,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2366500,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2266373,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8648071,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8660580,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8634971,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1077993,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1073512,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1078584,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1192667,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1194945,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1303678,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4481116,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4454692,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4465111,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,570852,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,589484,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,600702,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,773594,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,668867,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,670126,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2265821,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2264486,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2255166,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,326405,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,347811,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,332006,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,352415,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,359973,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,376242,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1149295,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1145102,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1140682,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,228695,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217131,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,213931,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,197805,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,234902,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,237501,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,635682,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,645814,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,685870,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,195516,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,207736,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,183327,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,178677,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,193764,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,189824,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,533266,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,536520,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,550162,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,175765,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,197802,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,185573,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,166440,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,167707,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,165583,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22889625,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22320550,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22264372,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5029327,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5036028,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5035644,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6874607,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6455095,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6016668,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15043042,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15056883,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15066023,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2050867,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2051149,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2051201,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2223152,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2159393,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2095104,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8626685,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8532484,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8523139,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1077947,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1071706,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1074794,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1248052,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1313671,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1188158,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4498602,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4486064,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4479793,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,587061,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,589190,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,590378,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,644056,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,667820,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,659981,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2273870,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2255183,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2263975,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,333826,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,337654,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,320617,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,356386,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,394212,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,390439,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1144749,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1142459,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1137106,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,231118,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,232292,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,215795,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,215133,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,216314,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,218060,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,643365,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,648092,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,658982,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,186046,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,199481,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,182314,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,182705,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,188241,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,176644,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,529383,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,558106,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,528935,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,203247,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,188293,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,188253,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,162527,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,164984,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,150943,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22991464,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22550161,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22470151,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5050412,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5039243,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5050554,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6740661,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6210875,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6154256,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,14780898,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14647199,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14631214,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2055551,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059330,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2056452,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2490714,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2277334,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2274542,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8563858,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8526512,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8515210,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1082921,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1072994,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1073124,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1241835,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1205469,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1172783,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4510589,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4493946,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4487569,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,589521,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,596278,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,577960,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,642718,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,665567,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,661205,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2271973,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2254726,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2255612,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,333298,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335448,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335798,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,357910,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,383109,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,387443,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1141270,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1144773,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1138491,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,230881,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217121,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,233760,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,196333,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,253693,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,266093,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,635799,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,634671,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,634577,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,185715,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,181323,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,199209,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,190139,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,193862,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,178306,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,542218,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,634941,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,560514,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,192009,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,188706,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,186415,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,146818,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,168252,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,152189,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22725588,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22442333,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22422526,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5036913,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5045220,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5038575,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6523006,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6211238,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6085819,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,14895614,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14679049,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14795339,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2054213,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2054764,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2054108,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2433243,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2295298,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2296414,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8525313,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8496483,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8481296,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1057082,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1065181,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1063421,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1271973,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1220134,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1201755,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4450322,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4429140,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4434228,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,573064,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,575405,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,574787,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,671444,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,648756,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,647562,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2294818,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2286552,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2292957,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,332975,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335460,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335919,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,348922,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,379616,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,376290,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1158373,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1154626,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1162220,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,216007,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,215724,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,215260,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,212617,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,220305,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,231365,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,647871,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,640218,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,641432,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,183939,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,183469,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,182176,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,188828,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,173293,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,174504,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,557137,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,557193,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,584287,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,174051,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,173876,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,188653,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,180625,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,182237,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,168589,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22900737,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22588412,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22336193,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5043140,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5053454,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5072854,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6671301,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6070732,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6066077,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15396207,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15184110,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15062001,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2061151,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2055869,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2055228,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2486619,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2478622,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2292463,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8498027,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8503042,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8475241,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1056768,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1058807,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1063801,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1244270,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1201529,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1182527,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4466482,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4476040,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4456737,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,571568,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,592130,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,576519,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,667831,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,628561,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,663316,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2239585,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2226391,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2235476,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,335555,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,320109,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335223,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,360404,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,372410,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,385986,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1140125,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1148301,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1148160,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,236514,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216241,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,232565,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,189738,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,237241,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,235583,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,643303,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,647190,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,645643,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,183651,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,208982,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,182785,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,191673,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,197270,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,193260,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,548585,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,544797,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,555584,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,200129,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,180662,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,181408,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,181262,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,168096,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,168760,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22846091,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22501751,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22508729,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5052715,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5043498,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5057503,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6634728,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6156351,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6053453,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15175537,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15366682,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15191516,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2058582,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2061287,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057952,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2408036,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2364464,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2365607,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8592563,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8564496,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8551966,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1058581,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1067553,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1066846,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1206471,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1188411,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1201923,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4457160,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4437289,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4453540,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,573669,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,577760,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,574158,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,647896,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,673577,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,662275,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2253366,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2249985,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2251474,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,334201,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,318975,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335526,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,354880,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,376778,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,366448,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1146122,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1146131,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1134104,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,215492,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216204,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,232125,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,236996,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,219929,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,233063,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,645302,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,643764,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,648619,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,185926,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,182621,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,186626,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,191436,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,194458,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,228112,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,526636,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,529110,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,530521,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,223426,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,189622,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,190453,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,171268,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,150587,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,151966,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23037934,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22059652,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22089252,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5074472,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5086009,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5069915,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6514888,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6238595,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6098938,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15199637,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15028535,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14984869,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2060058,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057349,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2060126,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2350623,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2380262,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2288976,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8594680,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8568922,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8553166,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1056624,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1064731,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1078240,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1253943,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1320741,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1190743,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4462246,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4440149,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4451011,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,590847,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,575097,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,576653,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,631463,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,629472,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,663405,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2287802,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2280795,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2270799,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,317592,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,336165,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,317358,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,341150,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,380114,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,374892,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1145761,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1143162,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1155405,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,204025,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,192252,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,200159,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217780,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,216911,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,235405,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,644375,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,643192,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,768765,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,203041,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,200865,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,183170,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,189416,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,193772,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,192209,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,546572,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,547126,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,560981,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,172384,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,203497,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,168474,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,226496,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,214853,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,192488,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22955632,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22342378,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22405570,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5167622,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5066863,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5054676,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6509527,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6007974,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6119578,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15337481,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15397397,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15401411,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2056498,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057697,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057268,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2363957,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2482183,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2315257,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8544890,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8492563,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8499606,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1054706,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1055078,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1065191,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1193535,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1106246,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1099277,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4449732,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4423349,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4411724,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,569928,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,572605,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,579934,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,711524,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,742906,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,645237,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2271947,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2288991,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2265148,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,332712,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333886,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333946,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,355606,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,369600,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,365078,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1156889,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1140603,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1137622,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,216069,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,218102,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217030,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,222289,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,218172,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,225351,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,651581,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,650200,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,651618,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,189544,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,201423,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185345,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,208680,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,198526,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,201713,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,539850,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,533315,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,603549,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,191155,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,178100,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,182195,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,169526,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,190101,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,224699,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23037253,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22487090,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22479273,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5078834,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5071068,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5079152,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6690391,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6196704,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6099836,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15125711,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14889042,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15087106,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2060944,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2066103,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059410,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2490015,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2339560,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2283343,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8585177,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8541821,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8522502,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1083864,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1100196,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1100149,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1251240,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1223625,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1340895,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4551493,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4515469,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4530278,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,572555,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,575127,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,575590,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,741618,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,696285,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,671453,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2266261,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2259598,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2241793,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,338470,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,305840,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,337388,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,343834,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,380722,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,376702,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1142822,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1138767,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1140566,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,219170,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216665,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217366,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,196125,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,237511,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,329890,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,709999,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,629204,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,630844,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,170519,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184699,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185358,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,189586,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,196141,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,179170,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,523948,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,527560,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,523748,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,200990,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,183054,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,164499,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,153968,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,149970,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,168119,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22910296,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22727820,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22501621,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5048580,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5065699,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5054957,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6606745,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6243723,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6083006,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15120286,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15333786,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15309639,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2048723,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2054264,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2048200,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2413157,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2325194,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2279241,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8585364,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8581254,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8575204,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1057985,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1063078,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1077430,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1245628,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1198953,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1190538,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4517113,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4489656,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4485286,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,578747,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,582407,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,578004,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,723713,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,717555,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,635544,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2273307,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2270347,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2255811,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,318290,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333471,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,317780,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,359643,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,523739,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,376100,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1159032,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1150700,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1153449,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,211136,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,209213,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,193209,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,224866,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,236261,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,221115,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,648947,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,643347,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,638880,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,184680,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,169197,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184783,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,186324,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,201911,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,182972,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,526318,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,526584,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,530454,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,187865,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,186381,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,179233,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,184826,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,172720,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,159784,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22690161,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22336096,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22460381,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5067610,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5053662,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5049531,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6638979,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6306646,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6170203,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,14976048,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15000411,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14786418,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2062817,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057519,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057369,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2423145,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2305771,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2341884,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8667075,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8614679,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8558202,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1059593,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1065220,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1085181,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1284732,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1237707,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1223968,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4496506,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4474794,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4472489,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,585408,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,576815,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,576290,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,681350,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,656776,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,754702,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2287259,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2281023,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2276338,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,334077,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,319035,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335084,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,361759,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,369501,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,362047,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1131813,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1130773,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1138385,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,217939,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,233681,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217144,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,213090,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,227072,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,226773,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,646022,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,638152,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,635886,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,185794,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185498,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,201416,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,208711,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,217991,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,204754,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,521844,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,522375,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,528007,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,190800,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,209666,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,194225,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,210809,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,206490,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,212210,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23332825,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22428493,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22354947,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5081344,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5081868,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5145929,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6132114,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,5487355,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,5695885,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15193742,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15042255,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15097464,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2060865,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2065028,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057695,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2498366,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2342919,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2413411,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8597804,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8571802,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8561146,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1082198,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1084161,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1081959,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1232718,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1358513,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1170538,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4474957,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4444348,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4438442,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,583911,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,587576,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,590214,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,653016,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,673988,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,761044,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2283104,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2267235,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2260183,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,347054,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,337718,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,336538,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,366502,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,363023,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,387215,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1140557,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1138064,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1135968,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,233054,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,213838,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216196,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,229179,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,242892,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,271120,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,642667,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,645421,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,770877,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,210782,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,182535,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,199742,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,194898,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,195846,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,196367,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,537933,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,560123,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,556851,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,181726,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,188573,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,188315,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,192644,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,169679,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,154983,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,24411242,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,23659289,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,23650034,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5083119,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5063956,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5073693,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6708577,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6156974,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6209678,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,14830322,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14931487,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14806639,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2050528,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2056609,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2048747,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2357924,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2278608,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2277009,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8527106,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8502463,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8515795,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1080712,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1079073,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1073748,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1229257,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1194306,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1182680,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4490426,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4488225,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4493866,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,564257,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,575664,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,586854,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,658526,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,668645,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,667390,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2272879,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2239658,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2232980,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,337332,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,317426,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333062,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,360231,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,360959,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,370802,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1137827,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1135852,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1131280,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,221738,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,208357,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,208383,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,228106,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,239783,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,242460,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,637213,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,651278,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,640323,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,201216,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184668,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,197187,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,188631,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,199905,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,197561,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,541839,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,759183,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,684500,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,189681,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,213965,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,190201,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,251641,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,226889,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,201024,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22915906,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22290461,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22480766,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5051025,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5063143,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5059152,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6430314,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6301083,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6126779,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15347260,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15463584,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15366729,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2059514,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2056424,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2055696,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2534629,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2312629,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2325466,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8587207,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8507226,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8491385,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1066689,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1064262,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1062157,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1230633,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1188311,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1333449,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4470007,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4447216,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4451281,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,586426,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,591651,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,592268,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,656978,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,673921,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,646402,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2269740,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2263466,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2261466,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,356512,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,317250,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,339685,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,368084,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,351825,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,364224,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1144693,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1145941,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1147863,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,200083,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,233214,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,215456,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,219123,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,224523,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,243146,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,634312,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,638148,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,768494,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,184645,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185029,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,183331,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,188680,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,203926,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,182228,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,559643,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,526917,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,525467,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,184986,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,171950,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,170596,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,161418,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,175240,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,158494,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22922782,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22584799,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22566513,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5065695,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5074162,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5063235,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6422020,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6256630,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6364698,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15097656,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15155614,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15263007,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2053188,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2055522,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2053177,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2408808,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2445895,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2329042,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8593603,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8560528,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8546527,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1059962,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1060617,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1079194,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1340817,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1197543,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1196132,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4448554,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4443167,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4454168,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,571802,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,575802,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,576859,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,654130,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,668746,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,643217,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2257309,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2260258,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2255568,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,334368,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333341,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333996,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,359001,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,362091,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,376672,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1156786,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1166118,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1162923,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,215625,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217516,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217470,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,210645,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,232723,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,238472,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,633124,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,645822,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,640499,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,190994,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,200172,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184098,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,189362,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,185758,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,185084,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,530314,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,545211,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,556628,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,189294,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,189157,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,187677,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,152372,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,160472,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,154048,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23066599,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22314252,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22301033,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5041397,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5042084,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5043775,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6579363,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6315785,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6373324,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15193915,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15202681,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15224269,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2057342,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059330,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2074127,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2428977,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2441001,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2325402,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8689296,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8691520,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8647621,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1059676,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1056629,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1055865,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1374781,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1203709,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1207365,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4493004,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4472831,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4474668,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,593196,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,588792,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,588093,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,678558,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,657374,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,647045,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2269015,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2269964,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2257985,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,332046,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,332427,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,317096,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,365897,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,372730,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,377256,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1135763,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1136210,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1133704,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,215328,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217425,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217134,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216270,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,240008,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,237850,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,646346,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,648567,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,646936,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,169450,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185119,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,170226,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,176358,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,201117,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,178817,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,535028,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,541011,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,599963,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,207297,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,192621,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,170453,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,170430,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,173538,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,207840,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22977668,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22635131,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22363530,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5046954,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5063398,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5055871,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6425086,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6426199,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6270800,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15025875,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15097349,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14911949,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2058627,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059774,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057643,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2407596,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2335656,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2425529,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8597232,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8598941,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8576090,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1057135,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1066389,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1065220,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1370654,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1214489,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1210480,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4479558,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4475342,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4483728,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,584695,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,591145,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,593359,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,649549,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,655399,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,679426,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2281950,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2282674,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2261150,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,340528,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,334318,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,334273,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,375318,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,382045,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,365417,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1149799,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1157627,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1149383,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,223146,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,239446,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,235677,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,212036,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,237373,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,236716,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,648386,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,649238,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,650484,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,168720,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,183636,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,166274,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,197366,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,201268,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,177191,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,530787,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,533038,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,536598,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,190838,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,193977,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,169998,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,171278,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,170587,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,152989,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23027090,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22638138,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22646891,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5068394,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5082443,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5075937,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6396567,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6488047,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6360155,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15132015,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15058173,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15023981,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2058609,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2060841,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2055882,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2442050,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2309453,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2286436,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8621589,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8559189,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8575118,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1084341,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1081171,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1080210,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1257146,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1210072,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1211192,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4512976,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4489454,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4476990,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,617494,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,606500,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,617196,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,691115,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,710612,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,652309,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2237928,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2232290,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2231500,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,347103,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,348639,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,349112,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,339732,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,357911,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,368776,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1136260,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1136253,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1136205,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,218460,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216208,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217786,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,210964,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,235088,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,232625,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,642087,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,700464,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,748880,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,204807,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184296,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184898,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,191646,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,192327,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,181102,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,550681,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,558221,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,560425,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,172204,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,187574,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,182362,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,166035,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,158612,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,149075,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22691137,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22671773,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22438837,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5058125,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5050802,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5051919,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6731492,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6174102,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6196158,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15510866,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15178677,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15140890,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2073306,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2076078,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2078601,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2391374,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2333586,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2310366,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8622521,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8592567,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8575373,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1056301,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1059886,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1058440,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1215194,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1198438,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1215154,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4450709,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4453427,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4453559,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,573373,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,573790,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,573597,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,668918,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,679482,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,682641,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2277474,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2280240,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2276056,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,349239,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333743,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,334755,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,369702,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,380761,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,379811,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1151323,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1136934,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1140409,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,249387,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,221074,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,220123,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,214412,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,220096,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,226992,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,641260,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,643354,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,647340,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,202396,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,186388,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,201140,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,198321,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,202483,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,183206,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,562882,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,547560,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,551579,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,210132,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,181818,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,178883,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,161491,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,182103,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,156427,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23092900,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22426327,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22582637,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5046348,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5058581,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5032658,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6460747,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6455567,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6318867,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15628549,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15428055,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15395803,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2054447,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2051389,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2049966,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2420215,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2344161,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2337989,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8502402,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8503835,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8538196,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1058155,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1059025,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1057794,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1217860,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1215067,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1205401,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4450026,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4444531,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4445795,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,590194,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,590388,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,589842,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,732292,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,744591,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,647383,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2280753,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2253457,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2253219,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,334168,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335048,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335809,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,353626,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,393857,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,385298,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1138586,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1138833,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1130355,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,201242,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,218425,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,202635,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217029,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,220697,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,226832,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,646185,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,651419,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,652877,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,186050,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,195882,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,186073,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,197221,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,196997,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,181240,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,524582,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,517329,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,520316,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,177659,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,171180,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,187761,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,191867,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,176087,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,172384,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22974301,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22351001,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22508144,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5053757,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5045586,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5038191,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6294130,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6220197,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6338823,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15155713,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15029410,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15017543,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2058640,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2063865,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2057953,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2375877,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2311735,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2295094,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8635782,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8575641,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8608337,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1071812,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1063068,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1079900,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1205975,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1192528,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1200101,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4497672,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4484463,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4469702,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,582711,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,578701,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,581207,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,640016,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,663481,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,646069,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2276449,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2268844,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2248666,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,317627,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,343489,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,326201,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,357459,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,364544,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,382103,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1140518,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1142941,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1147440,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,216096,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,233249,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,214717,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,201311,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,243005,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,239629,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,639977,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,646585,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,641584,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,198529,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,183233,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,183531,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,202042,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,196785,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,201446,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,546773,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,572909,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,552916,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,178910,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,190073,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,176343,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,158588,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,197013,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,169303,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22754944,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22421259,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22545642,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5069983,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5091644,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5074665,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6403755,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6371772,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6268334,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15465302,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15208774,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15202571,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2059166,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2053008,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2050365,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2371024,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2342750,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2346856,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8616907,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8608254,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8622108,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1075806,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1075895,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1077779,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1244067,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1231531,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1221715,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4531422,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4503236,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4515492,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,574709,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,575926,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,574874,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,667629,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,637811,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,653425,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2269814,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2262731,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2249293,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,339306,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,334125,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,332564,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,360335,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,396825,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,384524,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1141206,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1138643,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1144351,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,197898,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,201505,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,217567,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216403,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,240100,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,241426,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,645774,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,656756,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,711814,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,184383,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185807,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,167215,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,198693,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,185724,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,196083,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,516554,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,517606,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,521832,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,206415,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,186523,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,191419,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,186329,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,162184,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,157653,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23256740,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22573802,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22486708,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5045599,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5050138,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5050686,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6368851,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6476062,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6300650,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15203233,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,14927187,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15050775,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2061362,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2060093,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059708,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2381781,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2341516,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2383210,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8560201,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8561071,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8556222,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1058555,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1083416,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1078438,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1246423,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1187543,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1210298,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4514373,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4511764,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4502229,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,575202,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,589095,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,590670,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,639614,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,660054,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,691831,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2257209,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2248211,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2249799,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,333969,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,319820,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,336852,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,362423,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,399180,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,379934,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1139682,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1135132,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1148259,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,215694,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,233369,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216470,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,212674,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,234750,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,221974,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,653368,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,646099,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,644415,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,186731,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185035,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184334,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,178556,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,202597,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,219712,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,536104,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,531999,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,605849,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,182212,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,188987,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,185209,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,179226,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,161367,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,172435,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22800371,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22685468,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22621023,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5050621,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5052639,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5044245,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6555138,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6215223,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6047573,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15340956,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15196686,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15324731,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2059021,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059970,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059384,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2466405,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2318511,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2427446,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8608284,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8526570,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8542245,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1065841,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1065062,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1068234,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1215712,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1218559,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1197286,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4483435,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4461489,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4470311,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,583496,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,589837,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,591499,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,673176,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,654486,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,655935,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2265583,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2259779,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2262656,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,334560,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,337923,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,337055,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,407541,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,445298,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,364364,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1140282,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1136406,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1134609,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,215976,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,213742,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,214012,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,211299,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,214033,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,236480,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,646515,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,654031,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,644277,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,205189,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,167620,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184081,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,177703,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,197851,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,190554,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,585301,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,545890,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,622415,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,220839,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,185013,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,206233,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,177386,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,170869,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,256167,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22702509,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22418979,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22367043,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5144251,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5146721,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5707762,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6459541,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6132062,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6010917,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15205482,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15259075,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15290377,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2049115,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2069722,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2069567,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2345308,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2340560,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2512546,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8670906,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8670761,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8650199,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1058641,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1058275,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1057262,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1214086,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1197851,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1319624,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4465120,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4465061,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4447418,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,559624,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,578902,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,575395,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,647256,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,649330,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,785415,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2256804,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2256969,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2246618,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,350883,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,318162,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,335274,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,347202,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,386496,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,375381,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1135151,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1139092,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1142063,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,216597,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,214946,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,206211,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,195291,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,222459,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,237907,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,635345,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,653928,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,644616,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,186015,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185807,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,168873,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,177444,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,196909,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,182918,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,522962,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,529781,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,533021,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,214294,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,187040,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,193994,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,187447,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,174434,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,209636,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,23197463,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22699690,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22532865,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5007139,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5022926,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5020006,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6602192,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6232184,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6328998,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15153372,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15280525,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15261986,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2059345,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059930,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2059288,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2440173,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2347178,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2326374,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8609223,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8584006,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8602229,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1075887,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1075307,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1076277,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1269203,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1214789,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1356203,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4473390,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4457100,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4460528,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,588740,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,590573,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,591002,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,643772,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,640072,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,671660,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2284132,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2268594,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2264289,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,334519,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,317869,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,336992,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,365023,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,380474,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,365274,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1146064,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1145082,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1150690,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,207698,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,193829,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,210341,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216892,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,244715,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,224134,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,638719,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,641456,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,643841,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,201102,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,169313,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,187782,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,185654,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,188007,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,195413,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,534468,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,538257,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,543383,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,188333,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,211071,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,182393,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,165005,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,172935,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,166919,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,22971744,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22550450,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,22317896,Face-Based,Polyester,NeoN,1
+LDC_N260,17576000,5049747,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5051228,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,5066425,Face-Based,Pinned,NeoN + Julia,1
+LDC_N260,17576000,6496351,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6468952,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,6407397,Face-Based,Unpinned,NeoN + Julia,1
+LDC_N260,17576000,15218556,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15273062,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,15139389,Face-Based,Polyester,NeoN,2
+LDC_N260,17576000,2051891,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2049032,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2049050,Face-Based,Pinned,NeoN + Julia,2
+LDC_N260,17576000,2390413,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2323940,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,2306497,Face-Based,Unpinned,NeoN + Julia,2
+LDC_N260,17576000,8569939,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8559981,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,8522999,Face-Based,Polyester,NeoN,4
+LDC_N260,17576000,1057006,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1065215,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1062522,Face-Based,Pinned,NeoN + Julia,4
+LDC_N260,17576000,1246868,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1225132,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,1223574,Face-Based,Unpinned,NeoN + Julia,4
+LDC_N260,17576000,4441540,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4442042,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,4429642,Face-Based,Polyester,NeoN,8
+LDC_N260,17576000,560669,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,560319,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,560468,Face-Based,Pinned,NeoN + Julia,8
+LDC_N260,17576000,651860,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,660334,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,669424,Face-Based,Unpinned,NeoN + Julia,8
+LDC_N260,17576000,2284219,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2274772,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,2260665,Face-Based,Polyester,NeoN,16
+LDC_N260,17576000,335540,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,333640,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,317343,Face-Based,Pinned,NeoN + Julia,16
+LDC_N260,17576000,360592,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,384248,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,351191,Face-Based,Unpinned,NeoN + Julia,16
+LDC_N260,17576000,1144205,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1149715,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,1145601,Face-Based,Polyester,NeoN,32
+LDC_N260,17576000,193546,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,210368,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216924,Face-Based,Pinned,NeoN + Julia,32
+LDC_N260,17576000,216299,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,245081,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,224075,Face-Based,Unpinned,NeoN + Julia,32
+LDC_N260,17576000,640236,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,641819,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,640916,Face-Based,Polyester,NeoN,64
+LDC_N260,17576000,186254,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184383,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,184811,Face-Based,Pinned,NeoN + Julia,64
+LDC_N260,17576000,186787,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,212888,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,212928,Face-Based,Unpinned,NeoN + Julia,64
+LDC_N260,17576000,542153,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,533885,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,541990,Face-Based,Polyester,NeoN,128
+LDC_N260,17576000,189344,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,206722,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,189719,Face-Based,Pinned,NeoN + Julia,128
+LDC_N260,17576000,187043,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,173884,Face-Based,Unpinned,NeoN + Julia,128
+LDC_N260,17576000,159713,Face-Based,Unpinned,NeoN + Julia,128

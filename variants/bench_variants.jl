@@ -4,7 +4,7 @@ include("cell_variants.jl")
 include("batched_variants.jl")
 include("../cpu_threaded.jl")
 using ThreadPinning
-
+    
 function benchmark_case(case::String)
     suite = BenchmarkGroup()
     suite["cpu"] = BenchmarkGroup(["cpu"])
@@ -22,7 +22,7 @@ function benchmark_case(case::String)
     
     batches = getBatches(meshInput)
     if nthreads > 1
-        ThreadPinning.pinthreads(:cores)
+        ThreadPinning.pinthreads(:affinitymask)
         suite["cpu"][case]["batchedFace"] = BenchmarkGroup(["cpu", "batchedFace"])
 
         suite["cpu"][case]["batchedFace"]["Fused"] = @benchmarkable FusedBatchedFaceBasedAssembly($input, $prep..., $batches, $pde)
@@ -57,7 +57,7 @@ function benchmark_case(case::String)
         # suite["cpu"][case]["globalFaceBased"]["DynamicCDF"] = @benchmarkable DynamicGlobalFaceBasedAssembly_t($input, $prep..., $cdf_f)
         # suite["cpu"][case]["globalFaceBased"]["DynamicUpwind"] = @benchmarkable DynamicGlobalFaceBasedAssembly_t($input, $prep..., $upwind_f)
     else
-        suite["cpu"][case]["batchedFace"]["Fused"] = @benchmarkable FusedBatchedFaceBasedAssembly($input, $prep..., $batches, $pde)
+        # suite["cpu"][case]["batchedFace"]["Fused"] = @benchmarkable FusedBatchedFaceBasedAssembly($input, $prep..., $batches, $pde)
 
         suite["cpu"][case]["faceBased"]["Fused"] = @benchmarkable FusedFaceBasedAssembly($input, $prep..., $pde)
         # suite["cpu"][case]["faceBased"]["PrecalculatedWeightsUpwind"] = @benchmarkable PrecalculatedWeightsFaceBasedAssembly($input, $prep..., $meshInput.weightsUpwind)
@@ -84,7 +84,7 @@ function benchmark_case(case::String)
         # suite["cpu"][case]["globalFaceBased"]["DynamicUpwind"] = @benchmarkable DynamicGlobalFaceBasedAssembly($input, $prep..., $upwind_f)
     end
     results = run(suite, verbose=true)
-    processResults(results, "variations_cpu_polyester_pinnedthreads.csv", Float64)
+    processResults(results, "standalone-fused.csv", Float64)
     
 end
 struct Result
@@ -99,7 +99,7 @@ struct Result
     language::String
 end
 
-ResultToCsvRow(r::Result, cpu::Bool, precision::String, use_kernelAbstractions::Bool, use_fusing::Bool) = "$(r.time_mean_ms),$(r.time_median_ms),$(r.gc_time_mean_ms),$(r.gc_time_median_ms),$(r.case_short),$(r.case_long),$(r.strategy),$(r.variant),$(r.language),$precision,$(ifelse(cpu, "cpu", "gpu" )),$use_kernelAbstractions,$use_fusing,$(Threads.nthreads())\n"
+ResultToCsvRow(r::Result, cpu::Bool, precision::String, use_kernelAbstractions::Bool, use_fusing::Bool) = "$(r.time_mean_ms),$(r.time_median_ms),$(r.gc_time_mean_ms),$(r.gc_time_median_ms),$(r.case_short),$(r.case_long),$(r.strategy),$(r.variant),$(r.language),$precision,$(ifelse(cpu, "cpu", "gpu" )),$use_kernelAbstractions,$use_fusing,$(Threads.nthreads()),H200\n"
 
 function processResults(results::BenchmarkGroup, file::String, T)
     if !isfile(file)

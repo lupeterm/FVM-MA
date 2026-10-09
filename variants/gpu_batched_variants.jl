@@ -1,5 +1,5 @@
 include("common.jl")
-
+using KernelAbstractions
 function FusedBatchedAssembly(batches, U, nus, bFaceValues, bFaceMapping, vals, RHS, colors, fused_pde)
     backend = CUDABackend()
     internalKernel! = fused_internal(backend, 64)
@@ -21,23 +21,24 @@ function FusedBatchedAssembly(batches, U, nus, bFaceValues, bFaceMapping, vals, 
             vals
             ;
             ndrange=length(batches[1].batchId)
-            )
-            KernelAbstractions.synchronize(backend)
-        end
+        )
+        KernelAbstractions.synchronize(backend)
+    end
     batched_boundary_fused(backend, 64)(
-        batches[2].iOwner,
-        batches[2].gDiff,
-        batches[2].ownerIdx,
-        batches[2].Sf,
+        batches[end].iOwner,
+        batches[end].gDiff,
+        batches[end].ownerIdx,
+        batches[end].Sf,
         nus,
         bFaceValues,
         bFaceMapping,
         fused_pde,
         vals,
-        RHS,
-        length(batches[1].batchId);
-        ndrange=length(bFaceValues)
+        RHS;
+        ndrange=length(bFaceMapping)
     )
+    KernelAbstractions.synchronize(backend)
+
     return vals, RHS
 end
 
@@ -83,8 +84,7 @@ end
     @Const(bFaceMapping),
     @Const(fused_pde),
     vals,
-    RHS,
-    nInternalFaces
+    RHS
 )
     t = eltype(nus)
     iFace = @index(Global)

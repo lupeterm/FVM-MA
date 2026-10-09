@@ -5,6 +5,7 @@ using BenchmarkTools
 using StaticArrays
 using .Threads
 using CUDA
+using Polyester
 using Atomix
 # using Metal
 include("classes.jl")
