@@ -62,7 +62,7 @@ do
 	# ~/.juliaup/bin/julialauncher -t $nthreads bench_variants.jl $dir/case
 	# ~/.juliaup/bin/julialauncher bench_variants.jl $dir/case
 	finished=$(($finished+1))
-  	# done
+  	done
 done
 echo "Done with $finished/$total benchmark runs."
 
